@@ -11,6 +11,15 @@ body {
     background-color: darkseagreen
 }
 
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
 /* container */
 
 .container {
@@ -257,3 +266,14 @@ button {
     border-radius: 50px;
 }
     
+#button-19 {
+        display: inline-block;
+        width: 1370px;
+        height: 725px;
+        margin: 5px 0px;
+        padding: 15px 25px;
+        border: 2px solid #ffe6e6;
+        background-color: ghostwhite;
+        z-index: 0;
+        position: relative;
+    }

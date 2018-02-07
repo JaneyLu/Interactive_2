@@ -8,5 +8,19 @@ $(document).ready(function(){
 			borderWidth: '10px'
 		}, 1000 );
 	});
+    
+    var button = document.getElementById("clickme"),
+    count = 0;
+button.onclick = function() {
+  count += 1;
+  button.innerHTML = "Click me: " + count;
+};
+    
+var j= 0;
+    $("#j").click(function(){
+        j++;
+        $("#counter").html(j);
+        
+    });
 
 });
