@@ -1,0 +1,16 @@
+body{
+    background-color: coral;
+    color: beige;
+    
+}
+
+.block{
+    position: relative;
+    width: 400px;
+    height: 250px; 
+    border: solid white 2px;
+    text-align: center;
+   float:left;
+    margin: 50px;
+    
+}
