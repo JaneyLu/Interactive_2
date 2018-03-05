@@ -12,7 +12,7 @@ body{
 	height: 280px;
 	position: relative;
 	display: inline-block;
-	margin: 50px; 
+	margin: 25px; 
 }
 
 .bigo{
@@ -313,7 +313,172 @@ body{
     top: 38px;
 }
 
+/*for E only*/
 
+#E .bigo.left_1{
+    left: 0px;
+    top: 0px;
+}
 
+#E .bigo.left_2{
+    left: 0px;
+    bottom: 0px;
+}
 
+#E .smallo.left{
+    left: 0px;
+    top: 116px;
+}
 
+#E .smallo.right{
+    right: 0px;
+    top: 116px;
+}
+
+#E .verticle_long.left{
+    left: 0px;
+    top: 10px;
+}
+
+#E .horizontal.top{
+    left: 15px;
+    top: 0px;
+}
+
+#E .horizontal.bottom{
+    left: 15px;
+    bottom: 0px;
+}
+
+#E .horizontal.angle_1{
+    left: 13px;
+    top: 123px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(8deg);
+}
+
+#E .horizontal.angle_2{
+    left: 12px;
+    top: 122px;
+    -webkit-transform: rotate(-8deg); /* Safari 3-8 */
+    transform: rotate(-8deg);
+}
+
+/* for F only*/
+#F .bigo.left_1{
+    left: 0px;
+    top: 0px;
+}
+
+#F .smallo.left{
+    left: 0px;
+    top: 116px;   
+}
+
+#F .smallo.right{
+    right: 0px;
+    top: 116px;
+}
+
+#F .horizontal.top{
+    top: 0px;
+    left: 15px;
+}
+
+#F .verticle_long.left{
+    left: 0px;
+    top: 15px;
+}
+
+#F .horizontal.angle_1{
+    left: 13px;
+    top: 123px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(8deg);
+}
+
+#F .horizontal.angle_2{
+    left: 12px;
+    top: 122px;
+    -webkit-transform: rotate(-8deg); /* Safari 3-8 */
+    transform: rotate(-8deg);
+}
+
+/* for G only*/
+#G .verticle_long.left{
+    left: 0px;
+    top: 10px;
+}
+
+#G .bigo.left_1{
+    top: 0px;
+    left: 0px;
+}
+
+#G .bigo.left_2{
+    bottom: 0px;
+    left: 0px;
+}
+
+#G .bigo.right_1{
+    top: 0px;
+    right: 0px;
+}
+
+#G .bigo.right_2{
+    bottom: 0px;
+    right: 0px;
+}
+
+#G .horizontal.top{
+    top: 0px;
+    left: 10px;
+}
+
+#G .horizontal.bottom{
+    bottom: 0px;
+    left: 10px;
+}
+
+#G .verticle_d.right1{
+    right: 0px;
+    top: 10px;
+}
+
+#G .smallo.mid{
+    right: 0px;
+    top: 146px;
+}
+
+#G .verticle_d.mid{
+    right: 23px;
+    top: 129px;
+    -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+}
+
+#G .verticle_c.bottom{
+    bottom: 13px;
+    right: 0px;
+}
+
+/* for H only*/
+#H .smallo.top{
+    top: 0px;
+    left: 0px;
+}
+
+#H .smallo.bottom{
+    bottom: 0px;
+    right: 0px;
+}
+
+#H .bigo.left{
+    top: 146px;
+    left: 10px;
+}
+
+#H .verticle_c.left{
+    left: 5px;
+    top: 5px;
+}
