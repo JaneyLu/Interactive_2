@@ -4,83 +4,90 @@ body{
 
 .main_wrap{
     margin: 50px;
+    width: 1000px;
+    height: 1500px;
 }
 
+.sciencewrap{
+    margin: 220px 50px 50px 50px;
+    width: 1000px;
+    height: 800px;
+}
 
 .letter{
-    width: 107.1px;
-	height: 280px;
+    width: 53.5px;
+	height: 140px;
 	position: relative;
 	display: inline-block;
-	margin: 25px; 
+	margin: 20px; 
 }
 
 .bigo{
-    width: 18px;
-	height: 18px;
+    width: 9px;
+	height: 9px;
 
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-    border: 3px solid white;
+    border: 2px solid white;
     position: absolute;
 }
 
 .smallo{
-    width: 10px;
-	height: 10px;
+    width: 5px;
+	height: 5px;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-    border: 3px solid white;
+    border: 2px solid white;
     position: absolute;
 }
 
 .verticle_long{
-    height: 260px;
-    width: 3px;
+    height: 130px;
+    width: 2px;
     background-color: white;
     position: absolute;
 }
 
 .verticle_0{
-    height: 200px;
-    width: 3px;
+    height: 100px;
+    width: 2px;
     background-color: white;
     position: absolute;
 }
 
 .verticle_a{
-    height:136px;
-    width: 3px;
+    height:68px;
+    width: 2px;
     background-color: white;
     position: absolute;
 }
 
 .verticle_b{
-    height:125px;
-    width: 3px;
+    height:62.5px;
+    width: 2px;
     background-color: white;
     position: absolute;   
 }
 
 .verticle_c{
-    height:110px;
-    width: 3px;
+    height:55px;
+    width: 2px;
     background-color: white;
     position: absolute;   
 }
 
 .verticle_d{
-    height:38px;
-    width: 3px;
+    height: 19px;
+    width: 2px;
     background-color: white;
     position: absolute;    
 }
 
 .rotate_1{
-    width: 3px;
-    height: 140px;
+    width: 2px;
+    height: 70px;
     background-color: white;
     position: absolute;
     -webkit-transform: rotate(19deg); /* Safari 3-8 */
@@ -88,8 +95,8 @@ body{
 }
 
 .rotate_2{
-    width: 3px;
-    height: 140px;
+    width: 2px;
+    height: 70px;
     background-color: white;
     position: absolute;
     -webkit-transform: rotate(-19deg); /* Safari 3-8 */
@@ -97,8 +104,8 @@ body{
 }
 
 .horizontal{
-    width: 85px;
-    height: 3px;
+    width: 42.5px;
+    height: 2px;
     background-color: white;
     position: absolute;
     
@@ -107,12 +114,12 @@ body{
 /*for A only*/
 
 #A .rotate_1.left{
-    left: 24px;
+    left: 12px;
     top: 0px;
 }
 
 #A .rotate_2.right{
-    right: 23px;
+    right: 11.5px;
     top: 0px;
 }
 
@@ -127,22 +134,22 @@ body{
 }
 
 #A .horizontal.middle{
-    left: 10px;
-    top: 130px;
+    left: 5px;
+    top: 65px;
 }
 
 #A .smallo.top{
     top:0px;
-    left: 46px;
+    left: 22px;
 }
 
 #A .bigo.left{
-    top:130px;
+    top:65px;
     left: 0px;
 }
 
 #A .bigo.right{
-    top:130px;
+    top:65px;
     right: 0px;
 }
 
@@ -170,62 +177,62 @@ body{
 
 #B .verticle_b.right{
     right: 0px;
-    bottom: 10px;
+    bottom: 5px;
 }
 
 #B .verticle_c.right{
     right: 0px;
-    top: 10px;
+    top: 5px;
 }
 
 #B .bigo.right{
     right: 0px;
-    top: 135px;
+    top: 67.5px;
 }
 
 #B .verticle_long.left{
     left: 0px;
-    top: 10px;
+    top: 5px;
 }
 
 #B .horizontal.top{
     top: 0px;
-    left: 10px;
+    left: 5px;
 }
 
 #B .horizontal.bottom{
     bottom: 0px;
-    left: 10px;
+    left: 5px;
 }
 
 #B .smallo.left{
     left: 0px;
-    top: 125px;
+    top: 62.5px;
 }
 
 #B .smallo.right{
     right: 0px;
-    top: 110px;
+    top: 55px;
 }
 
 #B .horizontal.inter1{
-    left: 11px;
-    top: 131px;
+    left: 5px;
+    top: 65px;
     -webkit-transform: rotate(19deg); /* Safari 3-8 */
     transform: rotate(6deg);   
 }
 
 #B .horizontal.inter2{
-    left: 11px;
-    top: 129px;
+    left: 6px;
+    top: 65.5px;
     -webkit-transform: rotate(19deg); /* Safari 3-8 */
-    transform: rotate(-10deg);   
+    transform: rotate(-9deg);   
 }
 
 /*for C only*/
 #C .verticle_long.left{
     left: 0px;
-    top: 10px;
+    top: 5px;
 }
 
 #C .bigo.left_1{
@@ -250,29 +257,29 @@ body{
 
 #C .horizontal.top{
     top: 0px;
-    left: 10px;
+    left: 5px;
 }
 
 #C .horizontal.bottom{
     bottom: 0px;
-    left: 10px;
+    left: 5px;
 }
 
 #C .verticle_d.right1{
     right: 0px;
-    top: 10px;
+    top: 5px;
 }
 
 #C .verticle_d.right2{
     right: 0px;
-    bottom: 10px;
+    bottom: 5px;
 }
 
 /*for D only*/
 
 #D .verticle_long.left{
     left: 0px;
-    top: 10px;
+    top: 5px;
 }
 
 #D .bigo.left_1{
@@ -286,31 +293,31 @@ body{
 }
 
 #D .bigo.right_1{
-    top: 28px;
+    top: 14px;
     right: 0px;
 }
 
 #D .bigo.right_2{
-    bottom: 28px;
+    bottom: 14px;
     right: 0px;
 }
 
 #D .horizontal.inter1{
-    left: 14px;
-    top: 14px;
+    left: 7px;
+    top: 7px;
     -webkit-transform: rotate(19deg); /* Safari 3-8 */
     transform: rotate(19deg);   
 }
 
 #D .horizontal.inter2{
-    left: 14px;
-    top: 263px;
+    left: 7px;
+    top: 131px;
     -webkit-transform: rotate(19deg); /* Safari 3-8 */
     transform: rotate(-19deg);  }
 
 #D .verticle_0.right{
     right: 0px;
-    top: 38px;
+    top: 19px;
 }
 
 /*for E only*/
@@ -327,39 +334,39 @@ body{
 
 #E .smallo.left{
     left: 0px;
-    top: 116px;
+    top: 58px;
 }
 
 #E .smallo.right{
     right: 0px;
-    top: 116px;
+    top: 58px;
 }
 
 #E .verticle_long.left{
     left: 0px;
-    top: 10px;
+    top: 5px;
 }
 
 #E .horizontal.top{
-    left: 15px;
+    left: 7.5px;
     top: 0px;
 }
 
 #E .horizontal.bottom{
-    left: 15px;
+    left: 7.5px;
     bottom: 0px;
 }
 
 #E .horizontal.angle_1{
-    left: 13px;
-    top: 123px;
+    left: 6.5px;
+    top: 61.5px;
     -webkit-transform: rotate(8deg); /* Safari 3-8 */
     transform: rotate(8deg);
 }
 
 #E .horizontal.angle_2{
-    left: 12px;
-    top: 122px;
+    left: 6px;
+    top: 61px;
     -webkit-transform: rotate(-8deg); /* Safari 3-8 */
     transform: rotate(-8deg);
 }
@@ -372,34 +379,34 @@ body{
 
 #F .smallo.left{
     left: 0px;
-    top: 116px;   
+    top: 58px;   
 }
 
 #F .smallo.right{
     right: 0px;
-    top: 116px;
+    top: 58px;
 }
 
 #F .horizontal.top{
     top: 0px;
-    left: 15px;
+    left: 7.5px;
 }
 
 #F .verticle_long.left{
     left: 0px;
-    top: 15px;
+    top: 7.5px;
 }
 
 #F .horizontal.angle_1{
-    left: 13px;
-    top: 123px;
+    left: 7px;
+    top: 61.5px;
     -webkit-transform: rotate(8deg); /* Safari 3-8 */
     transform: rotate(8deg);
 }
 
 #F .horizontal.angle_2{
-    left: 12px;
-    top: 122px;
+    left: 7px;
+    top: 61px;
     -webkit-transform: rotate(-8deg); /* Safari 3-8 */
     transform: rotate(-8deg);
 }
@@ -407,7 +414,7 @@ body{
 /* for G only*/
 #G .verticle_long.left{
     left: 0px;
-    top: 10px;
+    top: 5px;
 }
 
 #G .bigo.left_1{
@@ -432,53 +439,239 @@ body{
 
 #G .horizontal.top{
     top: 0px;
-    left: 10px;
+    left: 5px;
 }
 
 #G .horizontal.bottom{
     bottom: 0px;
-    left: 10px;
+    left: 5px;
 }
 
 #G .verticle_d.right1{
     right: 0px;
-    top: 10px;
+    top:5px;
 }
 
 #G .smallo.mid{
     right: 0px;
-    top: 146px;
+    top: 73px;
 }
 
 #G .verticle_d.mid{
-    right: 23px;
-    top: 129px;
+    right: 11.5px;
+    top: 64px;
     -webkit-transform: rotate(90deg); /* Safari 3-8 */
     transform: rotate(90deg);
 }
 
 #G .verticle_c.bottom{
-    bottom: 13px;
+    bottom: 6.5px;
     right: 0px;
 }
 
 /* for H only*/
 #H .smallo.top{
-    top: 0px;
+    bottom: 0px;
     left: 0px;
 }
 
 #H .smallo.bottom{
-    bottom: 0px;
+    top: 0px;
     right: 0px;
 }
 
 #H .bigo.left{
-    top: 146px;
-    left: 10px;
+    top: 62px;
+    left: 7px;
 }
 
-#H .verticle_c.left{
-    left: 5px;
+#H .bigo.right{
+    top: 51px;
+    right: 7px;
+}
+
+#H .verticle_b.left{
+    left: 7px;
+    bottom: 6px;
+}
+
+#H .verticle_c.right{
+    right: 7px;
     top: 5px;
+}
+
+#H .verticle_long.left{
+    left: 0px;
+    top: 5px;
+}
+
+#H .verticle_long.right{
+    right: 0px;
+    bottom: 5px;
+}
+
+#H .verticle_d.mid{
+    left: 26px;
+    top: 54px;
+     -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+}
+
+/* for S only*/
+#S .bigo.left_top{
+    top: 0px;
+    left: 0px;
+}
+
+#S .bigo.left_mid{
+    top: 59px;
+    left: 0px;
+}
+
+#S .bigo.left_bottom{
+    bottom: 0px;
+    left: 0px;
+}
+
+#S .bigo.right_top{
+    top: 0px;
+    right: 0px;
+}
+
+#S .bigo.right_mid{
+    top: 59px;
+    right: 0px;
+}
+
+#S .bigo.right_bottom{
+    bottom: 0px;
+    right: 0px;
+}
+
+#S .verticle_a.left{
+    left: 0px;
+    top: 3px;
+}
+
+#S .verticle_a.right{
+    right: 0px;
+    bottom: 4px;
+}
+
+#S .verticle_d.right{
+    right: 0px;
+    top: 5px;
+}
+
+#S .verticle_d.left{
+    left: 0px;
+    bottom: 5px;
+}
+
+#S .horizontal.top{
+    top: 0px;
+    left: 5px;
+}
+
+#S .horizontal.bottom{
+    bottom: 0px;
+    left: 5px;
+}
+
+#S .horizontal.mid{
+    top: 64px;
+    left: 6px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(-16deg);
+}
+
+/* for I only*/
+#I .smallo.top{
+    top: 0px;
+    left: 26px;
+}
+
+#I .smallo.bottom{
+    bottom: 0px;
+    left: 26px;
+}
+
+#I .verticle_long.left{
+    top: 5px;
+    left: 33px;
+}
+
+#I .verticle_long.right{
+    top: 5px;
+    right: 26px;
+}
+
+/* for M only*/
+#M .smallo.left{
+    left: 0px;
+    top: 0px;
+}
+
+#M .smallo.mid{
+    left: 23px;
+    bottom: 0px;
+}
+
+#M .smallo.right{
+    right: 0px;
+    top: 0px;
+}
+
+#M .verticle_long.left{
+    left: 0px;
+    top: 6px;
+}
+
+#M .verticle_long.right{
+    right: 0px;
+    top: 6px;
+}
+
+#M .verticle_0.rotate_1{
+    left: 11px;
+    top: 6px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(-7deg);
+}
+
+#M .verticle_0.rotate_2{
+    right: 11px;
+    top: 6px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(7deg);
+}
+
+
+
+/* for N only*/
+#N .bigo.left{
+    top: 0px;
+    left: 0px;
+}
+
+#N .bigo.right{
+    bottom: 0px;
+    right: 0px;
+}
+
+#N .verticle_long.left{
+    top: 5px;
+    left: 0px;
+}
+
+#N .verticle_long.right{
+    bottom: 5px;
+    right: 0px;
+}
+
+#N .verticle_long.rotate{
+    top: 5px;
+    left: 26px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(-13deg);
 }
