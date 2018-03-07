@@ -1,0 +1,147 @@
+.Bbigo{
+    width: 18px;
+	height: 18px;
+
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    border: 3px solid white;
+    position: absolute;
+}
+
+.Bsmallo{
+    width: 10px;
+	height: 10px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    border: 3px solid white;
+    position: absolute;
+}
+
+.Bverticle_long{
+    height: 260px;
+    width: 3px;
+    background-color: white;
+    position: absolute;
+}
+
+.Bverticle_short{
+    height: 160px;
+    width: 3px;
+    background-color: white;
+    position: absolute;
+}
+
+.Bverticle_0{
+    height: 200px;
+    width: 3px;
+    background-color: white;
+    position: absolute;
+}
+
+.Bverticle_a{
+    height:126px;
+    width: 3px;
+    background-color: white;
+    position: absolute;
+}
+
+.Bverticle_b{
+    height:125px;
+    width: 3px;
+    background-color: white;
+    position: absolute;   
+}
+
+.Bverticle_c{
+    height:110px;
+    width: 3px;
+    background-color: white;
+    position: absolute;   
+}
+
+.Bverticle_d{
+    height: 38px;
+    width: 3px;
+    background-color: white;
+    position: absolute;    
+}
+
+.Brotate_1{
+    width: 3px;
+    height: 140px;
+    background-color: white;
+    position: absolute;
+    -webkit-transform: rotate(19deg); /* Safari 3-8 */
+    transform: rotate(18deg);
+    border-top-right-radius: 900px;
+}
+
+.Brotate_2{
+    width: 3px;
+    height: 140px;
+    background-color: white;
+    position: absolute;
+    -webkit-transform: rotate(-19deg); /* Safari 3-8 */
+    transform: rotate(-19deg);
+}
+
+.Bhorizontal{
+    width: 85px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    
+}
+
+/*for D only*/
+#BD .Bverticle_long.left{
+    left: 0px;
+    top: 10px;
+}
+
+#BD .Bbigo.left_1{
+    top: 0px;
+    left: 0px;
+}
+
+#BD .Bbigo.left_2{
+    bottom: 0px;
+    left: 0px;
+}
+
+#BD .Bbigo.right_1{
+    top: 28px;
+    right: 0px;
+}
+
+#BD .Bbigo.right_2{
+    bottom: 28px;
+    right: 0px;
+}
+
+#BD .Bhorizontal.inter1{
+    left: 14px;
+    top: 14px;
+    -webkit-transform: rotate(19deg); /* Safari 3-8 */
+    transform: rotate(19deg);   
+}
+
+#BD .Bhorizontal.inter2{
+    left: 14px;
+    top: 262px;
+    -webkit-transform: rotate(19deg); /* Safari 3-8 */
+    transform: rotate(-19deg);  }
+
+#BD .Bverticle_0.right{
+    right: 0px;
+    top: 38px;
+}
+
+/*for Y only*/
+#BY .Bsmallo.mid{
+    top: 108px;
+    left: 53.5px;
+}
+

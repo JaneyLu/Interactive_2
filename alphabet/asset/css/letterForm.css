@@ -1,0 +1,670 @@
+/*for A only*/
+
+#A .rotate_1.left{
+    left: 12px;
+    top: 0px;
+}
+
+#A .rotate_2.right{
+    right: 11.5px;
+    top: 0px;
+}
+
+#A .verticle_a.left{
+    left: 0px;
+    bottom: 0px;
+}
+
+#A .verticle_a.right{
+    right: 0px;
+    bottom: 0px;
+}
+
+#A .horizontal.middle{
+    left: 5px;
+    top: 65px;
+}
+
+#A .smallo.top{
+    top:0px;
+    left: 22px;
+}
+
+#A .bigo.left{
+    top:65px;
+    left: 0px;
+}
+
+#A .bigo.right{
+    top:65px;
+    right: 0px;
+}
+
+/*for B only*/
+
+#B .bigo.left_1{
+    top: 0px;
+    left: 0px;
+}
+
+#B .bigo.left_2{
+    bottom: 0px;
+    left: 0px;
+}
+
+#B .bigo.right_1{
+    top: 0px;
+    right: 0px;
+}
+
+#B .bigo.right_2{
+    bottom: 0px;
+    right: 0px;
+}
+
+#B .verticle_b.right{
+    right: 0px;
+    bottom: 5px;
+}
+
+#B .verticle_c.right{
+    right: 0px;
+    top: 5px;
+}
+
+#B .bigo.right{
+    right: 0px;
+    top: 67.5px;
+}
+
+#B .verticle_long.left{
+    left: 0px;
+    top: 5px;
+}
+
+#B .horizontal.top{
+    top: 0px;
+    left: 5px;
+}
+
+#B .horizontal.bottom{
+    bottom: 0px;
+    left: 5px;
+}
+
+#B .smallo.left{
+    left: 0px;
+    top: 62.5px;
+}
+
+#B .smallo.right{
+    right: 0px;
+    top: 55px;
+}
+
+#B .horizontal.inter1{
+    left: 5px;
+    top: 65px;
+    -webkit-transform: rotate(19deg); /* Safari 3-8 */
+    transform: rotate(6deg);
+    border-top-right-radius: 900px;
+    border-bottom-left-radius: 900px;
+}
+
+#B .horizontal.inter2{
+    left: 6px;
+    top: 65.5px;
+    -webkit-transform: rotate(19deg); /* Safari 3-8 */
+    transform: rotate(-9deg);   
+}
+
+/*for C only*/
+#C .verticle_long.left{
+    left: 0px;
+    top: 5px;
+}
+
+#C .bigo.left_1{
+    top: 0px;
+    left: 0px;
+}
+
+#C .bigo.left_2{
+    bottom: 0px;
+    left: 0px;
+}
+
+#C .bigo.right_1{
+    top: 0px;
+    right: 0px;
+}
+
+#C .bigo.right_2{
+    bottom: 0px;
+    right: 0px;
+}
+
+#C .horizontal.top{
+    top: 0px;
+    left: 5px;
+}
+
+#C .horizontal.bottom{
+    bottom: 0px;
+    left: 5px;
+}
+
+#C .verticle_d.right1{
+    right: 0px;
+    top: 5px;
+}
+
+#C .verticle_d.right2{
+    right: 0px;
+    bottom: 5px;
+}
+
+/*for D only*/
+
+#D .verticle_long.left{
+    left: 0px;
+    top: 5px;
+}
+
+#D .bigo.left_1{
+    top: 0px;
+    left: 0px;
+}
+
+#D .bigo.left_2{
+    bottom: 0px;
+    left: 0px;
+}
+
+#D .bigo.right_1{
+    top: 14px;
+    right: 0px;
+}
+
+#D .bigo.right_2{
+    bottom: 14px;
+    right: 0px;
+}
+
+#D .horizontal.inter1{
+    left: 7px;
+    top: 7px;
+    -webkit-transform: rotate(19deg); /* Safari 3-8 */
+    transform: rotate(19deg);   
+}
+
+#D .horizontal.inter2{
+    left: 7px;
+    top: 131px;
+    -webkit-transform: rotate(19deg); /* Safari 3-8 */
+    transform: rotate(-19deg);  }
+
+#D .verticle_0.right{
+    right: 0px;
+    top: 19px;
+}
+
+/*for E only*/
+
+#E .bigo.left_1{
+    left: 0px;
+    top: 0px;
+}
+
+#E .bigo.left_2{
+    left: 0px;
+    bottom: 0px;
+}
+
+#E .smallo.left{
+    left: 0px;
+    top: 58px;
+}
+
+#E .smallo.right{
+    right: 0px;
+    top: 58px;
+}
+
+#E .verticle_long.left{
+    left: 0px;
+    top: 5px;
+}
+
+#E .horizontal.top{
+    left: 7.5px;
+    top: 0px;
+}
+
+#E .horizontal.bottom{
+    left: 7.5px;
+    bottom: 0px;
+}
+
+#E .horizontal.angle_1{
+    left: 6.5px;
+    top: 61.5px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(8deg);
+}
+
+#E .horizontal.angle_2{
+    left: 6px;
+    top: 61px;
+    -webkit-transform: rotate(-8deg); /* Safari 3-8 */
+    transform: rotate(-8deg);
+}
+
+/* for F only*/
+#F .bigo.left_1{
+    left: 0px;
+    top: 0px;
+}
+
+#F .smallo.left{
+    left: 0px;
+    top: 58px;   
+}
+
+#F .smallo.right{
+    right: 0px;
+    top: 58px;
+}
+
+#F .horizontal.top{
+    top: 0px;
+    left: 7.5px;
+}
+
+#F .verticle_long.left{
+    left: 0px;
+    top: 7.5px;
+}
+
+#F .horizontal.angle_1{
+    left: 7px;
+    top: 61.5px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(8deg);
+}
+
+#F .horizontal.angle_2{
+    left: 7px;
+    top: 61px;
+    -webkit-transform: rotate(-8deg); /* Safari 3-8 */
+    transform: rotate(-8deg);
+}
+
+/* for G only*/
+#G .verticle_long.left{
+    left: 0px;
+    top: 5px;
+}
+
+#G .bigo.left_1{
+    top: 0px;
+    left: 0px;
+}
+
+#G .bigo.left_2{
+    bottom: 0px;
+    left: 0px;
+}
+
+#G .bigo.right_1{
+    top: 0px;
+    right: 0px;
+}
+
+#G .bigo.right_2{
+    bottom: 0px;
+    right: 0px;
+}
+
+#G .horizontal.top{
+    top: 0px;
+    left: 5px;
+}
+
+#G .horizontal.bottom{
+    bottom: 0px;
+    left: 5px;
+}
+
+#G .verticle_d.right1{
+    right: 0px;
+    top:5px;
+}
+
+#G .smallo.mid{
+    right: 0px;
+    top: 73px;
+}
+
+#G .verticle_d.mid{
+    right: 11.5px;
+    top: 64px;
+    -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+}
+
+#G .verticle_c.bottom{
+    bottom: 6.5px;
+    right: 0px;
+}
+
+/* for H only*/
+#H .smallo.top{
+    bottom: 0px;
+    left: 0px;
+}
+
+#H .smallo.bottom{
+    top: 0px;
+    right: 0px;
+}
+
+#H .bigo.left{
+    top: 62px;
+    left: 7px;
+}
+
+#H .bigo.right{
+    top: 51px;
+    right: 7px;
+}
+
+#H .verticle_b.left{
+    left: 7px;
+    bottom: 6px;
+}
+
+#H .verticle_c.right{
+    right: 7px;
+    top: 5px;
+}
+
+#H .verticle_long.left{
+    left: 0px;
+    top: 5px;
+}
+
+#H .verticle_long.right{
+    right: 0px;
+    bottom: 5px;
+}
+
+#H .verticle_d.mid{
+    left: 26px;
+    top: 54px;
+     -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+}
+
+/* for S only*/
+#S .bigo.left_top{
+    top: 0px;
+    left: 0px;
+}
+
+#S .bigo.left_mid{
+    top: 59px;
+    left: 0px;
+}
+
+#S .bigo.left_bottom{
+    bottom: 0px;
+    left: 0px;
+}
+
+#S .bigo.right_top{
+    top: 0px;
+    right: 0px;
+}
+
+#S .bigo.right_mid{
+    top: 59px;
+    right: 0px;
+}
+
+#S .bigo.right_bottom{
+    bottom: 0px;
+    right: 0px;
+}
+
+#S .verticle_a.left{
+    left: 0px;
+    top: 3px;
+}
+
+#S .verticle_a.right{
+    right: 0px;
+    bottom: 4px;
+}
+
+#S .verticle_d.right{
+    right: 0px;
+    top: 5px;
+}
+
+#S .verticle_d.left{
+    left: 0px;
+    bottom: 5px;
+}
+
+#S .horizontal.top{
+    top: 0px;
+    left: 5px;
+}
+
+#S .horizontal.bottom{
+    bottom: 0px;
+    left: 5px;
+}
+
+#S .horizontal.mid{
+    top: 64px;
+    left: 6px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(-16deg);
+}
+
+/* for I only*/
+#I .smallo.top{
+    top: 0px;
+    left: 26px;
+}
+
+#I .smallo.bottom{
+    bottom: 0px;
+    left: 26px;
+}
+
+#I .verticle_long.left{
+    top: 5px;
+    left: 33px;
+}
+
+#I .verticle_long.right{
+    top: 5px;
+    right: 26px;
+}
+
+/* for J only*/
+#J .bigo.left{
+    left: 0px;
+    bottom: 0px;
+}
+
+#J .bigo.right{
+    right: 0px;
+    bottom: 0px;
+}
+
+#J .verticle_long.right{
+    right: 0px;
+    bottom: 5px;
+}
+
+#J .horizontal.bottom{
+    bottom: 0px;
+    left: 5px;
+}
+
+#J .verticle_d.left{
+    left: 0px;
+    bottom: 5px;
+}
+
+/* for K only*/
+#K .smallo.left{
+    bottom: 0px;
+    left: 0px;
+}
+
+#K .bigo.mid{
+    top: 62px;
+    left: 7px;
+}
+
+#K .verticle_long.left{
+    left: 0px;
+    bottom: 5px;
+}
+
+#K .verticle_a.mid{
+    left: 7px;
+    bottom: 5px;
+}
+
+#K .rotate_1.top{
+    left: 29px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(35deg);
+}
+
+#K .verticle_short.bottom{
+    bottom: -2px;
+    left: 33px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(-24deg);
+}
+
+/* for L only*/
+#L .bigo.left{
+    left: 0px;
+    bottom: 0px;
+}
+
+#L .verticle_long.left{
+    left: 0px;
+    bottom: 5px;
+}
+
+#L .horizontal.bottom{
+    left: 5px;
+    bottom: 0px;
+}
+
+
+
+/* for M only*/
+#M .smallo.left{
+    left: 0px;
+    top: 0px;
+}
+
+#M .smallo.mid{
+    left: 22px;
+    bottom: 4px;
+}
+
+#M .smallo.right{
+    right: 0px;
+    top: 0px;
+}
+
+#M .verticle_long.left{
+    left: 0px;
+    top: 6px;
+}
+
+#M .verticle_long.right{
+    right: 0px;
+    top: 6px;
+}
+
+#M .verticle_long.angle_a{
+    left: 15px;
+    top: 6px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(-7deg);
+}
+
+#M .verticle_long.angle_b{
+    right: 15px;
+    top: 6px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(7deg);
+}
+
+
+
+/* for N only*/
+#N .bigo.left{
+    top: 0px;
+    left: 0px;
+}
+
+#N .bigo.right{
+    bottom: 0px;
+    right: 0px;
+}
+
+#N .verticle_long.left{
+    top: 5px;
+    left: 0px;
+}
+
+#N .verticle_long.right{
+    bottom: 5px;
+    right: 0px;
+}
+
+#N .verticle_long.rotate{
+    top: 5px;
+    left: 26px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(-13deg);
+}
+
+/* for U only*/
+#U .bigo.left{
+    bottom: 0px;
+    left: 0px;
+}
+
+#U .bigo.right{
+    bottom: 0px;
+    right: 0px;
+}
+
+#U .verticle_long.left{
+    bottom: 5px;
+    left: 0px;
+}
+
+#U .verticle_long.right{
+    bottom: 5px;
+    right: 0px;
+}
+
+#U .horizontal.bottom{
+    bottom: 0px;
+    right: 5px;
+}
