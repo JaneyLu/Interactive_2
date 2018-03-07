@@ -9,7 +9,7 @@ body{
 }
 
 .sciencewrap{
-    margin: 220px 50px 50px 50px;
+    margin: 180px 50px 50px 50px;
     width: 1000px;
     height: 800px;
 }
@@ -45,6 +45,13 @@ body{
 
 .verticle_long{
     height: 130px;
+    width: 2px;
+    background-color: white;
+    position: absolute;
+}
+
+.verticle_short{
+    height: 80px;
     width: 2px;
     background-color: white;
     position: absolute;
@@ -606,6 +613,84 @@ body{
     right: 26px;
 }
 
+/* for J only*/
+#J .bigo.left{
+    left: 0px;
+    bottom: 0px;
+}
+
+#J .bigo.right{
+    right: 0px;
+    bottom: 0px;
+}
+
+#J .verticle_long.right{
+    right: 0px;
+    bottom: 5px;
+}
+
+#J .horizontal.bottom{
+    bottom: 0px;
+    left: 5px;
+}
+
+#J .verticle_d.left{
+    left: 0px;
+    bottom: 5px;
+}
+
+/* for K only*/
+#K .smallo.left{
+    bottom: 0px;
+    left: 0px;
+}
+
+#K .bigo.mid{
+    top: 62px;
+    left: 7px;
+}
+
+#K .verticle_long.left{
+    left: 0px;
+    bottom: 5px;
+}
+
+#K .verticle_a.mid{
+    left: 7px;
+    bottom: 5px;
+}
+
+#K .rotate_1.top{
+    left: 29px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(35deg);
+}
+
+#K .verticle_short.bottom{
+    bottom: -2px;
+    left: 33px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(-24deg);
+}
+
+/* for L only*/
+#L .bigo.left{
+    left: 0px;
+    bottom: 0px;
+}
+
+#L .verticle_long.left{
+    left: 0px;
+    bottom: 5px;
+}
+
+#L .horizontal.bottom{
+    left: 5px;
+    bottom: 0px;
+}
+
+
+
 /* for M only*/
 #M .smallo.left{
     left: 0px;
@@ -613,8 +698,8 @@ body{
 }
 
 #M .smallo.mid{
-    left: 23px;
-    bottom: 0px;
+    left: 22px;
+    bottom: 4px;
 }
 
 #M .smallo.right{
@@ -632,15 +717,15 @@ body{
     top: 6px;
 }
 
-#M .verticle_0.rotate_1{
-    left: 11px;
+#M .verticle_long.angle_a{
+    left: 15px;
     top: 6px;
     -webkit-transform: rotate(8deg); /* Safari 3-8 */
     transform: rotate(-7deg);
 }
 
-#M .verticle_0.rotate_2{
-    right: 11px;
+#M .verticle_long.angle_b{
+    right: 15px;
     top: 6px;
     -webkit-transform: rotate(8deg); /* Safari 3-8 */
     transform: rotate(7deg);
@@ -674,4 +759,30 @@ body{
     left: 26px;
     -webkit-transform: rotate(8deg); /* Safari 3-8 */
     transform: rotate(-13deg);
+}
+
+/* for U only*/
+#U .bigo.left{
+    bottom: 0px;
+    left: 0px;
+}
+
+#U .bigo.right{
+    bottom: 0px;
+    right: 0px;
+}
+
+#U .verticle_long.left{
+    bottom: 5px;
+    left: 0px;
+}
+
+#U .verticle_long.right{
+    bottom: 5px;
+    right: 0px;
+}
+
+#U .horizontal.bottom{
+    bottom: 0px;
+    right: 5px;
 }
