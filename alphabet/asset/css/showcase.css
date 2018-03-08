@@ -68,6 +68,13 @@
     position: absolute;    
 }
 
+.Bverticle_e{
+    height: 165px;
+    width: 3px;
+    background-color: white;
+    position: absolute;    
+}
+
 .Brotate_1{
     width: 3px;
     height: 140px;
@@ -132,7 +139,8 @@
     left: 14px;
     top: 262px;
     -webkit-transform: rotate(19deg); /* Safari 3-8 */
-    transform: rotate(-19deg);  }
+    transform: rotate(-19deg);  
+}
 
 #BD .Bverticle_0.right{
     right: 0px;
@@ -143,5 +151,29 @@
 #BY .Bsmallo.mid{
     top: 108px;
     left: 53.5px;
+}
+
+#BY .Bverticle_e.left{
+    bottom: 0px;
+    left: 54px;
+}
+
+#BY .Bverticle_e.right{
+    bottom: 0px;
+    right: 37px;
+}
+
+#BY .Bverticle_a.left{
+    top: 0px;
+    left: 25px;
+    -webkit-transform: rotate(19deg); /* Safari 3-8 */
+    transform: rotate(-28deg); 
+}
+
+#BY .Bverticle_a.right{
+    top: 0px;
+    right: 8px;
+    -webkit-transform: rotate(19deg); /* Safari 3-8 */
+    transform: rotate(28deg); 
 }
 
