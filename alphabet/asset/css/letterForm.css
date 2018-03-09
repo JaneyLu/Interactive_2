@@ -477,22 +477,22 @@
 /* for I only*/
 #I .smallo.top{
     top: 0px;
-    left: 26px;
+    left: 22px;
 }
 
 #I .smallo.bottom{
     bottom: 0px;
-    left: 26px;
+    left: 22px;
 }
 
 #I .verticle_long.left{
     top: 5px;
-    left: 33px;
+    left: 29px;
 }
 
 #I .verticle_long.right{
     top: 5px;
-    right: 26px;
+    right: 30px;
 }
 
 /* for J only*/
@@ -643,6 +643,219 @@
     transform: rotate(-13deg);
 }
 
+/* for O only*/
+#O .bigo.left_top{
+    top: 0px;
+    left: 0px;
+}
+
+#O .bigo.left_bottom{
+    bottom: 0px;
+    left: 0px;
+}
+
+#O .bigo.right_top{
+    top: 0px;
+    right: 0px;
+}
+
+#O .bigo.right_bottom{
+    bottom: 0px;
+    right: 0px;
+}
+
+#O .verticle_long.left{
+    top: 5px;
+    left: 0px;
+}
+
+#O .verticle_long.right{
+    top: 5px;
+    right: 0px;
+}
+
+#O .horizontal.top{
+    left: 5px;
+    top: 0px;
+}
+
+#O .horizontal.bottom{
+    right: 5px;
+    bottom: 0px;
+}
+
+/* for P only*/
+#P .bigo.left{
+    top: 0px;
+    left: 0px;
+}
+
+#P .bigo.right{
+    top: 0px;
+    right: 0px
+}
+
+#P .bigo.mid{
+    top: 50px;
+    right: 0px;
+}
+
+#P .smallo.mid{
+    top: 62px;
+    left: 8px;
+}
+
+#P .horizontal.top{
+    left: 5px;
+    top: 0px;
+}
+
+#P .horizontal.mid{
+    right: 7px;
+    top: 62px;
+    width: 32px;
+}
+
+#P .horizontal.shu{
+    top: 30px;
+    right: -20px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+}
+
+#P .verticle_long.left{
+    left: 0px;
+    top: 7.5px;
+}
+
+#P .verticle_a.left{
+    left: 8px;
+    bottom: 2px;
+}
+
+/*for Q only*/
+#Q .bigo.left_top{
+    top: 0px;
+    left: 0px;
+}
+
+#Q .bigo.left_bottom{
+    bottom: 0px;
+    left: 0px;
+}
+
+#Q .bigo.right_top{
+    top: 0px;
+    right: 0px;
+}
+
+#Q .bigo.right_bottom{
+    bottom: 0px;
+    right: 0px;
+}
+
+#Q .verticle_long.left{
+    top: 5px;
+    left: 0px;
+}
+
+#Q .verticle_long.right{
+    top: 5px;
+    right: 0px;
+}
+
+#Q .horizontal.top{
+    left: 5px;
+    top: 0px;
+}
+
+#Q .horizontal.bottom{
+    right: 5px;
+    bottom: 0px;
+}
+
+#Q .verticle_d.bottom{
+    right: -6px;
+    bottom: -8px;
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+}
+
+/* for R only*/
+#R .bigo.left{
+    left: 0px;
+    top: 0px;
+}
+
+#R .bigo.right{
+    top: 0px;
+    right: 0px;
+}
+
+#R .bigo.mid{
+    top: 50px;
+    right: 0px;
+}
+
+#R .smallo.mid{
+    top: 62px;
+    left: 8px;
+}
+
+#R .horizontal.top{
+    left: 5px;
+    top: 0px;
+}
+
+#R .horizontal.mid{
+    right: 7px;
+    top: 62px;
+    width: 32px;
+}
+
+#R .horizontal.shu{
+    top: 30px;
+    right: -20px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(90deg);
+}
+
+#R .verticle_long.left{
+    left: 0px;
+    top: 7.5px;
+}
+
+#R .verticle_0.left{
+    left: 28px;
+    bottom: -4px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(-30deg);
+    height: 82px;
+}
+
+/* for T only*/
+#T .smallo.center{
+    top: 0px;
+    left: 22px;
+}
+
+#T .horizontal.top{
+    top: 0px;
+    left: 0px;
+    width: 53.5px;
+}
+
+#T .verticle_long.left{
+    top: 7px;
+    left: 22px;
+}
+
+#T .verticle_long.right{
+    top: 7px;
+    right: 22px;
+}
+
+
 /* for U only*/
 #U .bigo.left{
     bottom: 0px;
@@ -668,3 +881,259 @@
     bottom: 0px;
     right: 5px;
 }
+
+/* for V only*/
+#V .bigo.bottom{
+    left: 20px;
+    bottom: 0px;
+}
+
+#V .verticle_long.angle_1{
+    top: 4px;
+    left: 9px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(-10deg);   
+}
+
+#V .verticle_long.angle_2{
+    top: 4px;
+    right: 9px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(10deg);   
+}
+
+/* for W only*/
+#W .smallo.left{
+    left: 0px;
+    bottom: 0px;
+}
+
+#W .smallo.right{
+    right: 0px;
+    bottom: 0px;
+}
+
+#W .smallo.mid{
+    left: 22px;
+    bottom: 55px;
+}
+
+#W .verticle_long.left{
+    left: 0px;
+    bottom: 7px;
+}
+
+#W .verticle_long.right{
+    right: 0px;
+    bottom: 7px;
+}
+
+#W .verticle_a.left{
+    bottom: 5px;
+    left: 15px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(14deg); 
+    height: 55px;
+}
+
+#W .verticle_a.right{
+    bottom: 5px;
+    right: 15px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(-15deg); 
+    height: 55px;
+}
+
+/* for X only*/
+#X .smallo.top{
+    top: 0px;
+    right: 0px;
+}
+
+#X .smallo.bottom{
+    bottom: 0px;
+    right: 0px;
+}
+
+#X .smallo.mid{
+    left: 22px;
+    bottom: 65px
+}
+
+#X .verticle_a.left_top{
+    left: 10px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(-18deg); 
+    height: 70px;
+}
+
+#X .verticle_a.left_bottom{
+    left: 10px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(18deg); 
+    bottom: 0px;
+    height: 73px;
+}
+
+#X .verticle_a.right_topa{
+    right: 11px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(18deg); 
+    top: 5px;
+    height: 70px;
+}
+
+#X .verticle_a.right_topb{
+    right: 18px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(18deg); 
+    top: 2px;
+    height: 70px;
+}
+
+#X .verticle_a.right_bottoma{
+    right: 11px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(-18deg); 
+    bottom: 2px;
+    height: 73px;
+}
+
+#X .verticle_a.right_bottomb{
+    right: 19px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(-18deg); 
+    bottom: 2px;
+    height: 73px;
+}
+
+
+/* for Y only*/
+#Y .smallo.center{
+    left: 22px;
+    bottom: 72px;
+}
+
+#Y .verticle_a.angle_1{
+    top: -2px;
+    left: 11px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(-19deg); 
+    height: 70px; 
+}
+
+#Y .verticle_a.angle_2{
+    top: -2px;
+    right: 12px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(19deg); 
+    height: 70px; 
+}
+
+#Y .verticle_a.left{
+    left: 22px;
+    bottom: 0px;
+    height: 75px;
+}
+
+#Y .verticle_a.right{
+    right: 23px;
+    bottom: 0px;
+    height: 75px;
+}
+
+/* for Z only*/
+#Z .bigo.left{
+    left: 0px;
+    bottom: 0px;
+}
+
+#Z .bigo.right{
+    right: 0px;
+    top: 0px;
+}
+
+#Z .horizontal.top{
+    top: 0px;
+    left: 5px;
+}
+
+#Z .horizontal.bottom{
+    bottom: 0px;
+    left: 7px;
+}
+
+#Z .verticle_long.angle{
+    left: 26px;
+    top: 5px;
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(22deg);  
+}
+
+/* for 1 only*/
+#one .smallo.only{
+    left: 14px;
+    top: 0px;
+}
+
+#one .verticle_long.only{
+    right: 4px;
+    top: 6px;
+}
+
+#one .verticle_d.only{
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(22deg);
+    left: 10px;
+    top:4px;    
+}
+
+/* for 2 only*/
+#two .smallo.top{
+    top: 0px;
+    right: 0px;
+}
+
+#two .smallo.bottom{
+    bottom: 2px;
+    left: 0px;
+}
+
+#two .smallo.mid_1{
+    top: 70px;
+    left: 0px;
+}
+
+#two .smallo.mid_2{
+    top: 62px;
+    right: 0px;
+}
+
+#two .horizontal_s.top{
+    top: 0px;
+    left: 2px;
+}
+
+#two .horizontal_s.mid{
+    top: 70px;
+    left: 3px;
+}
+
+#two .horizontal_s.bottom{
+    bottom: 2px;
+    left: 5px;
+}
+
+#two .verticle_a.left{
+    bottom: 4px;
+    left: 0px;
+    height: 60px;
+}
+
+#two .verticle_a.right{
+    top: 3px;
+    right: 0px;
+    height: 62px
+    
+}
+

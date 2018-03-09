@@ -4,19 +4,20 @@ body{
 
 .main_wrap{
     margin: 50px;
-    width: 1000px;
+    width: auto;
     height: 1500px;
+    position: center;
 }
 
 .sciencewrap{
     margin: 180px 50px 50px 50px;
-    width: 1000px;
+    width: auto;
     height: 800px;
 }
 
 .showcase{
     margin: 180px 50px 50px 50px;
-    width: 1000px;
+    width: auto;
     height: 800px;
 }
 
@@ -28,6 +29,13 @@ body{
 	margin: 20px;
 }
 
+.number{
+    width: 27px;
+	height: 140px;
+	position: relative;
+	display: inline-block;
+	margin: 20px;
+}
 
 .ShowcaseLetter{
     width: 107px;
@@ -132,4 +140,11 @@ body{
     background-color: white;
     position: absolute;
 
+}
+
+.horizontal_s{
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
 }
