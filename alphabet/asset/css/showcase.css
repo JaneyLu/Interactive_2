@@ -39,6 +39,13 @@
   100% {height: 400px;}
 }
 
+.Bbigcore{
+    width: 18px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+}
+
 .Bverticle_short{
     height: 160px;
     width: 3px;
@@ -59,6 +66,12 @@
   100% {height: 320px;}
 }
 
+.Bsmallcore{
+    width: 10px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+}
 
 .Bverticle_0{
     height: 200px;
@@ -275,6 +288,26 @@
     top: 38px;
 }
 
+#BD .Bbigcore.left_1{
+    left: 3px;
+    top: 10px;
+}
+
+#BD .Bbigcore.left_2{
+    left: 3px;
+    bottom: 10px;
+}
+
+#BD .Bbigcore.right_1{
+    right: 3px;
+    top: 38px;
+}
+
+#BD .Bbigcore.right_2{
+    right: 3px;
+    bottom: 38px;
+}
+
 /*for Y only*/
 #BY .Bsmallo.mid{
     top: 108px;
@@ -305,6 +338,11 @@
     transform: rotate(23deg); 
 }
 
+#BY .Bsmallcore.mid{
+    top: 115px;
+    left: 49px;
+}
+
 /* only for N*/
 #BN .Bbigo.left{
     left: 0px;
@@ -333,6 +371,16 @@
     transform: rotate(-14deg);
 }
 
+#BN .Bbigcore.left{
+    top: 10px;
+    left: 3px;
+}
+
+#BN .Bbigcore.right{
+    bottom: 10px;
+    right: 3px;
+}
+
 /* only for A*/
 #BA .Brotate_1.left{
     left: 24px;
@@ -346,12 +394,12 @@
 
 #BA .Bverticle_f.left{
     left: 0px;
-    bottom: 0px;
+    top: 140px;
 }
 
 #BA .Bverticle_f.right{
     right: 0px;
-    bottom: 0px;
+    top: 140px;
 }
 
 #BA .Bhorizontal.middle{
@@ -374,6 +422,20 @@
     right: 0px;
 }
 
+#BA .Bbigcore.left{
+    top: 140px;
+    left: 3px;
+}
+
+#BA .Bbigcore.right{
+    top: 140px;
+    right: 3px;
+}
+
+#BA .Bsmallcore.mid{
+    top: 7px;
+    right: 49px;
+}
 /*only for M*/
 #BM .Bsmallo.left{
     left: 0px;
@@ -414,6 +476,20 @@
     transform: rotate(7deg);
 }
 
+#BM .Bsmallcore.left{
+    top: 10px;
+    left: 3px;
+}
+
+#BM .Bsmallcore.right{
+    top: 10px;
+    right: 3px;
+}
+
+#BM .Bsmallcore.mid{
+    bottom: 12px;
+    right: 48px;
+}
 /* for I only*/
 #BI .Bsmallo.top{
     top: 0px;
@@ -434,6 +510,17 @@
     top: 10px;
     right: 46px;
 }
+
+#BI .Bsmallcore.top{
+    top: 7px;
+    left: 48px;
+}
+
+#BI .Bsmallcore.bottom{
+    bottom: 7px;
+    right: 49px;
+}
+
 
 /* for C only*/
 #BC .Bverticle_long.left{
@@ -481,3 +568,22 @@
     bottom: 5px;
 }
 
+#BC .Bbigcore.left_1{
+    top: 10px;
+    left: 3px;
+}
+
+#BC .Bbigcore.right_1{
+    top: 10px;
+    right: 3px;
+}
+
+#BC .Bbigcore.left_2{
+    bottom: 10px;
+    left: 3px;
+}
+
+#BC .Bbigcore.right_2{
+    bottom: 10px;
+    right: 3px;
+}
