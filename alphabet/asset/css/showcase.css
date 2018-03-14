@@ -1,3 +1,108 @@
+.ShowcaseLetter{
+    width: 107px;
+	height: 280px;
+	position: relative;
+	display: inline-block;
+	margin: 16px;
+}
+/*for animation*/
+.showcase:hover .Bbigcore {
+    animation-name: rotation;
+    animation-duration: 2s;
+}
+
+.showcase:hover .Bsmallcore {
+    animation-name: rotation;
+    animation-duration: 2s;
+}
+
+@keyframes rotation {
+    0% {transform:rotate(0deg);}
+    25% {transform:rotate(90deg);}
+    50% {transform:rotate(180deg);}
+    75% {transform:rotate(270deg);}
+    100% {transform:rotate(360deg);}
+}
+
+.showcase:hover .Bverticle_e.right{
+    animation-name: growa;
+    animation-duration: 1.5s;
+}
+
+@keyframes growa {
+  0% {height: 126px;}
+  25% {height: 150px;} 
+  50% {height: 180px;} 
+  75% {height: 200px;}
+  100% {height: 230px;}
+}
+
+.showcase:hover .Bverticle_e.left{
+    animation-name: shortena;
+    animation-duration: 1.5s;
+}
+
+@keyframes shortena {
+  0% {height: 126px;}
+  25% {height: 110px;} 
+  50% {height: 100px;} 
+  75% {height: 80px;}
+  100% {height: 50px;}
+}
+
+.showcase:hover #BN .Bverticle_long.right{
+    animation-name: grow;
+    animation-duration: 1.5s;
+}
+
+@keyframes grow {
+  0% {height: 260px;}
+  25% {height: 300px;} 
+  50% {height: 340px;} 
+  75% {height: 380px;}
+  100% {height: 420px;}
+}
+
+.showcase:hover #BN .Bverticle_long.left{
+    animation-name: shorten;
+    animation-duration: 1.5s;
+}
+
+@keyframes shorten {
+  0% {height: 260px;}
+  25% {height: 250px;} 
+  50% {height: 220px;} 
+  75% {height: 200px;}
+  100% {height: 180px;}
+}
+
+.showcase:hover #BA .Bverticle_f.left{
+    animation-name: growb;
+    animation-duration: 1.5s;
+}
+
+@keyframes growb {
+  0% {height: 140px;}
+  25% {height: 160px;} 
+  50% {height: 200px;} 
+  75% {height: 220px;}
+  100% {height: 230px;}
+}
+
+.showcase:hover #BA .Bverticle_f.right{
+    animation-name: shortenb;
+    animation-duration: 1.5s;
+}
+
+@keyframes shortenb {
+  0% {height: 140px;}
+  25% {height: 120px;} 
+  50% {height: 100px;} 
+  75% {height: 90px;}
+  100% {height: 80px;}
+}
+
+/*other parts*/
 .Bbigo{
     width: 18px;
 	height: 18px;
@@ -26,19 +131,6 @@
     position: absolute;
 }
 
-.Bverticle_long:hover{
-    animation-name: grow;
-    animation-duration: 1.5s;
-}
-
-@keyframes grow {
-  0% {height: 260px;}
-  25% {height: 300px;} 
-  50% {height: 340px;} 
-  75% {height: 380px;}
-  100% {height: 400px;}
-}
-
 .Bbigcore{
     width: 18px;
     height: 3px;
@@ -53,25 +145,27 @@
     position: absolute;
 }
 
-.Bverticle_short:hover{
-    animation-name: grow;
-    animation-duration: 1.5s;
-}
-
-@keyframes grow {
-  0% {height: 160px;}
-  25% {height: 200px;} 
-  50% {height: 240px;} 
-  75% {height: 280px;}
-  100% {height: 320px;}
-}
-
 .Bsmallcore{
     width: 10px;
     height: 2px;
     background-color: white;
     position: absolute;
 }
+
+.Bsmallcore:hover{
+    animation-name: rotationhe;
+    animation-duration: 2s;
+    
+}
+
+@keyframes rotationhe {
+    0% {transform:rotate(0deg);}
+    25% {transform:rotate(90deg);}
+    50% {transform:rotate(180deg);}
+    75% {transform:rotate(270deg);}
+    100% {transform:rotate(360deg);}
+}
+
 
 .Bverticle_0{
     height: 200px;
@@ -101,40 +195,12 @@
     position: absolute;
 }
 
-.Bverticle_a:hover{
-    animation-name: grow;
-    animation-duration: 1.5s;
-}
-
-@keyframes grow {
-  0% {height: 126px;}
-  25% {height: 160px;} 
-  50% {height: 200px;} 
-  75% {height: 240px;}
-  100% {height: 280px;}
-}
-
-
 .Bverticle_b{
     height:125px;
     width: 3px;
     background-color: white;
     position: absolute;   
 }
-
-.Bverticle_b:hover{
-    animation-name: grow;
-    animation-duration: 1.5s;
-}
-
-@keyframes grow {
-  0% {height: 125px;}
-  25% {height: 165px;} 
-  50% {height: 205px;} 
-  75% {height: 245px;}
-  100% {height: 285px;}
-}
-
 
 .Bverticle_c{
     height:110px;
@@ -143,35 +209,11 @@
     position: absolute;   
 }
 
-.Bverticle_c:hover{
-    animation-name: grow;
-    animation-duration: 1.5s;
-}
-
-@keyframes grow {
-  0% {height: 110px;}
-  25% {height: 150px;} 
-  50% {height: 190px;} 
-  75% {height: 230px;}
-  100% {height: 270px;}
-}
-
 .Bverticle_d{
     height: 38px;
     width: 3px;
     background-color: white;
     position: absolute;    
-}
-
-.Bverticle_d:hover{
-    animation-name: grow;
-    animation-duration: 1.5s;
-}
-
-@keyframes grow {
-  0% {height: 38px;}
-  50% {height: 78px;} 
-  100% {height: 118px;} 
 }
 
 
@@ -182,38 +224,11 @@
     position: absolute;    
 }
 
-.Bverticle_e:hover{
-    animation-name: grow;
-    animation-duration: 1.5s;
-}
-
-@keyframes grow {
-  0% {height: 165px;}
-  25% {height: 205px;} 
-  50% {height: 245px;} 
-  75% {height: 285px;}
-  100% {height: 325px;}
-}
-
-
 .Bverticle_f{
     height: 140px;
     width: 3px;
     background-color: white;
     position: absolute;    
-}
-
-.Bverticle_f:hover{
-    animation-name: grow;
-    animation-duration: 1.5s;
-}
-
-@keyframes grow {
-  0% {height: 140px;}
-  25% {height: 180px;} 
-  50% {height: 220px;} 
-  75% {height: 260px;}
-  100% {height: 300px;}
 }
 
 .Brotate_1{
@@ -222,7 +237,7 @@
     background-color: white;
     position: absolute;
     -webkit-transform: rotate(19deg); /* Safari 3-8 */
-    transform: rotate(18deg);
+    transform: rotate(19deg);
     border-top-right-radius: 900px;
 }
 
@@ -342,7 +357,6 @@
     top: 115px;
     left: 49px;
 }
-
 /* only for N*/
 #BN .Bbigo.left{
     left: 0px;
@@ -388,7 +402,7 @@
 }
 
 #BA .Brotate_2.right{
-    right: 23px;
+    right: 24px;
     top: 0px;
 }
 
@@ -435,6 +449,32 @@
 #BA .Bsmallcore.mid{
     top: 7px;
     right: 49px;
+}
+
+#BA:hover .Bverticle_f.left{
+    animation-name: growb;
+    animation-duration: 1.5s;
+}
+
+@keyframes growb {
+  0% {height: 140px;}
+  25% {height: 160px;} 
+  50% {height: 200px;} 
+  75% {height: 220px;}
+  100% {height: 230px;}
+}
+
+#BA:hover .Bverticle_f.right{
+    animation-name: shortenb;
+    animation-duration: 1.5s;
+}
+
+@keyframes shortenb {
+  0% {height: 140px;}
+  25% {height: 120px;} 
+  50% {height: 100px;} 
+  75% {height: 90px;}
+  100% {height: 80px;}
 }
 /*only for M*/
 #BM .Bsmallo.left{
@@ -490,6 +530,33 @@
     bottom: 12px;
     right: 48px;
 }
+
+.showcase:hover #BM .Bverticle_long.left{
+    animation-name: growc;
+    animation-duration: 1.5s;
+}
+
+@keyframes growc {
+  0% {height: 260px;}
+  25% {height: 300px;} 
+  50% {height: 340px;} 
+  75% {height: 380px;}
+  100% {height: 420px;}
+}
+
+.showcase:hover #BM .Bverticle_long.right{
+    animation-name: shortenc;
+    animation-duration: 1.5s;
+}
+
+@keyframes shortenc {
+  0% {height: 260px;}
+  25% {height: 250px;} 
+  50% {height: 220px;} 
+  75% {height: 200px;}
+  100% {height: 180px;}
+}
+
 /* for I only*/
 #BI .Bsmallo.top{
     top: 0px;
@@ -525,7 +592,7 @@
 /* for C only*/
 #BC .Bverticle_long.left{
     left: 0px;
-    top: 5px;
+    top: 10px;
 }
 
 #BC .Bbigo.left_1{
@@ -550,22 +617,22 @@
 
 #BC .Bhorizontal.top{
     top: 0px;
-    left: 5px;
+    left: 10px;
 }
 
 #BC .Bhorizontal.bottom{
     bottom: 0px;
-    left: 5px;
+    left: 10px;
 }
 
 #BC .Bverticle_d.right1{
     right: 0px;
-    top: 5px;
+    top: 10px;
 }
 
 #BC .Bverticle_d.right2{
     right: 0px;
-    bottom: 5px;
+    bottom: 10px;
 }
 
 #BC .Bbigcore.left_1{
@@ -586,4 +653,30 @@
 #BC .Bbigcore.right_2{
     bottom: 10px;
     right: 3px;
+}
+
+.showcase:hover #BC .Bverticle_d.right1{
+    animation-name: growd;
+    animation-duration: 1.5s;
+}
+
+@keyframes growd {
+  0% {height: 38px;}
+  25% {height: 50px;} 
+  50% {height: 70px;} 
+  75% {height: 100px;}
+  100% {height: 120px;}
+}
+
+.showcase:hover #BC .Bverticle_d.right2{
+    animation-name: shortend;
+    animation-duration: 1.5s;
+}
+
+@keyframes shortend {
+  0% {height: 38px;}
+  25% {height: 30px;} 
+  50% {height: 20px;} 
+  75% {height: 10px;}
+  100% {height: 0px;}
 }

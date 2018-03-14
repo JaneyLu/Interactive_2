@@ -16,9 +16,8 @@ body{
 }
 
 .showcase{
-    margin: 180px 50px 50px 50px;
+    margin: 180px 50px 500px 50px;
     width: auto;
-    height: 800px;
 }
 
 .letter{
@@ -35,14 +34,6 @@ body{
 	position: relative;
 	display: inline-block;
 	margin: 20px;
-}
-
-.ShowcaseLetter{
-    width: 107px;
-	height: 280px;
-	position: relative;
-	display: inline-block;
-	margin: 16px;
 }
 
 .bigo{
