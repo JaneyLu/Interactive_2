@@ -261,6 +261,34 @@
     right: 2px;
     bottom: 6px;
 }
+
+#C:hover .verticle_d.right1{
+    animation-name: elgtc;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgtc {
+  0% {height: 19px;}
+  25% {height: 30px;} 
+  50% {height: 40px;} 
+  75% {height: 55px;}
+  100% {height: 70px;}
+}
+
+#C:hover .verticle_d.right2{
+    animation-name: shortc;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shortc {
+  0% {height: 19px;}
+  25% {height: 15px;} 
+  50% {height: 10px;} 
+  75% {height: 5px;}
+  100% {height: 0px;}
+}
 /*for D only*/
 
 #D .verticle_long.left{
@@ -306,6 +334,25 @@
     top: 19px;
 }
 
+#D .bigcore.left_1{
+    left: 2px;
+    top: 6px;
+}
+
+#D .bigcore.left_2{
+    left: 2px;
+    bottom: 6px;
+}
+
+#D .bigcore.right_1{
+    right: 2px;
+    top: 20px;
+}
+
+#D .bigcore.right_2{
+    right: 2px;
+    bottom: 20px;
+}
 /*for E only*/
 
 #E .bigo.left_1{
@@ -357,6 +404,54 @@
     transform: rotate(-8deg);
 }
 
+#E:hover .horizontal.top{
+    animation-name: elgtd;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgtd {
+  0% {width: 42.5px;}
+  25% {width: 50px;} 
+  50% {width: 55px;} 
+  75% {width: 60px;}
+  100% {width: 70px;}
+}
+
+#E:hover .horizontal.bottom{
+    animation-name: shortd;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shortd {
+  0% {width: 42.5px;}
+  25% {width: 35px;} 
+  50% {width: 30px;} 
+  75% {width: 20px;}
+  100% {width: 10px;}
+}
+
+#E .bigcore.top{
+    left: 2px;
+    top: 6px;
+}
+
+#E .bigcore.bottom{
+    left: 2px;
+    bottom: 6px;
+}
+
+#E .smallcore.left{
+    left: 2px;
+    top: 61px;
+}
+
+#E .smallcore.right{
+    right: 2px;
+    top: 61px;
+}
+
 /* for F only*/
 #F .bigo.left_1{
     left: 0px;
@@ -378,9 +473,37 @@
     left: 7.5px;
 }
 
+#F:hover .horizontal.top{
+    animation-name: shorte;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shorte {
+  0% {width: 42.5px;}
+  25% {width: 35px;} 
+  50% {width: 30px;} 
+  75% {width: 20px;}
+  100% {width: 10px;}
+}
+
 #F .verticle_long.left{
     left: 0px;
     top: 7.5px;
+}
+
+#F:hover .verticle_long.left{
+    animation-name: elgte;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgte {
+  0% {height: 130px;}
+  25% {height: 135px;} 
+  50% {height: 140px;} 
+  75% {height: 155px;}
+  100% {height: 165px;}
 }
 
 #F .horizontal.angle_1{
@@ -395,6 +518,21 @@
     top: 61px;
     -webkit-transform: rotate(-8deg); /* Safari 3-8 */
     transform: rotate(-8deg);
+}
+
+#F .smallcore.left{
+    left: 2px;
+    top: 61px;
+}
+
+#F .smallcore.right{
+    right: 2px;
+    top: 61px;
+}
+
+#F .bigcore.top{
+    top: 6px;
+    left: 2px;
 }
 
 /* for G only*/
@@ -438,23 +576,79 @@
     top:5px;
 }
 
+#G:hover .verticle_d.right1{
+    animation-name: shortf;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shortf {
+  0% {height: 19px;}
+  25% {height: 15px;} 
+  50% {height: 10px;} 
+  75% {height: 5px;}
+  100% {height: 0px;}
+}
+
+#G:hover .horizontalG{
+    animation-name: elgtf;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgtf {
+  0% {width: 19px;}
+  25% {width: 25px;} 
+  50% {width: 40px;} 
+  75% {width: 50px;}
+  100% {width: 70px;}
+}
+
 #G .smallo.mid{
     right: 0px;
     top: 73px;
 }
 
-#G .verticle_d.mid{
-    right: 11.5px;
-    top: 64px;
-    -webkit-transform: rotate(90deg); /* Safari 3-8 */
-    transform: rotate(90deg);
+.horizontalG{
+    height: 2px;
+    width: 19px;
+    background-color: white;
+    position: absolute;
 }
 
+#G .horizontalG{
+    right: 3px;
+    top: 73px;
+}
 #G .verticle_c.bottom{
     bottom: 6.5px;
     right: 0px;
 }
 
+#G .bigcore.left_1{
+    left: 2px;
+    top: 6px;
+}
+
+#G .bigcore.left_2{
+    left: 2px;
+    bottom: 6px;
+}
+
+#G .bigcore.right_1{
+    right: 2px;
+    top: 6px;
+}
+
+#G .bigcore.right_2{
+    right: 2px;
+    bottom: 6px;
+}
+
+#G .smallcore.right{
+    top: 76px;
+    right: 2px;
+}
 /* for H only*/
 #H .smallo.top{
     bottom: 0px;
@@ -488,14 +682,41 @@
 
 #H .verticle_long.left{
     left: 0px;
-    top: 5px;
+    bottom: 5px;
 }
 
 #H .verticle_long.right{
     right: 0px;
-    bottom: 5px;
+    top: 5px;
 }
 
+#H:hover .verticle_long.left{
+    animation-name: shortg;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shortg {
+  0% {height: 130px;}
+  25% {height: 120px;} 
+  50% {height: 110px;} 
+  75% {height: 95px;}
+  100% {height: 75px;}
+}
+
+#H:hover .verticle_long.right{
+    animation-name: elgtg;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgtg {
+  0% {height: 130px;}
+  25% {height: 135px;} 
+  50% {height: 145px;} 
+  75% {height: 155px;}
+  100% {height: 170px;}
+}
 #H .verticle_d.mid{
     left: 26px;
     top: 54px;
@@ -503,6 +724,25 @@
     transform: rotate(90deg);
 }
 
+#H .bigcore.left{
+   left: 9px;
+   top: 67px;
+}
+
+#H .bigcore.right{
+    right: 9px;
+    top: 56px;
+}
+
+#H .smallcore.top{
+    bottom: 3px;
+    left: 2px;
+}
+
+#H .smallcore.bottom{
+    right: 2px;
+    top: 3px;
+}
 /* for S only*/
 #S .bigo.left_top{
     top: 0px;
@@ -571,6 +811,36 @@
     transform: rotate(-16deg);
 }
 
+#S .bigcore.left_1{
+    left: 2px;
+    top: 6px;
+}
+
+#S .bigcore.left_2{
+    left: 2px;
+    bottom: 6px;
+}
+
+#S .bigcore.right_1{
+    right: 2px;
+    top: 6px;
+}
+
+#S .bigcore.right_2{
+    right: 2px;
+    bottom: 6px;
+}
+
+#S .bigcore.mid_1{
+    right: 2px;
+    top: 65px;
+}
+
+#S .bigcore.mid_2{
+    left: 2px;
+    bottom: 74px;
+}
+
 /* for I only*/
 #I .smallo.top{
     top: 0px;
@@ -592,6 +862,16 @@
     right: 30px;
 }
 
+#I .smallcore.top{
+    bottom: 4px;
+    left: 24px;
+}
+
+#I .smallcore.bottom{
+    right: 25px;
+    top: 3px;
+}
+
 /* for J only*/
 #J .bigo.left{
     left: 0px;
@@ -608,6 +888,20 @@
     bottom: 5px;
 }
 
+#J:hover .verticle_long.right{
+    animation-name: shorth;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shorth {
+  0% {height: 130px;}
+  25% {height: 115px;} 
+  50% {height: 100px;} 
+  75% {height: 90px;}
+  100% {height: 80px;}
+}
+
 #J .horizontal.bottom{
     bottom: 0px;
     left: 5px;
@@ -618,6 +912,29 @@
     bottom: 5px;
 }
 
+#J:hover .verticle_d.left{
+    animation-name: elgth;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgth {
+  0% {height: 19px;}
+  25% {height: 35px;} 
+  50% {height: 50px;} 
+  75% {height: 70px;}
+  100% {height: 90px;}
+}
+
+#J .bigcore.left{
+    bottom: 6px;
+    left: 2px;
+}
+
+#J .bigcore.right{
+    bottom: 6px;
+    right: 2px;
+}
 /* for K only*/
 #K .smallo.left{
     bottom: 0px;
@@ -633,6 +950,21 @@
     left: 0px;
     bottom: 5px;
 }
+
+#K:hover .verticle_long.left{
+    animation-name: shorti;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shorti {
+  0% {height: 130px;}
+  25% {height: 120px;} 
+  50% {height: 105px;} 
+  75% {height: 90px;}
+  100% {height: 75px;}
+}
+
 
 #K .verticle_a.mid{
     left: 7px;
@@ -652,6 +984,16 @@
     transform: rotate(-24deg);
 }
 
+#K .bigcore.mid{
+    left: 9px;
+    top: 68px;
+}
+
+#K .smallcore.bottom{
+    left: 2px;
+    bottom: 4px;
+}
+
 /* for L only*/
 #L .bigo.left{
     left: 0px;
@@ -668,7 +1010,38 @@
     bottom: 0px;
 }
 
+#L .bigcore.left{
+    left: 2px;
+    bottom: 6px;
+}
 
+#L:hover .verticle_long.left{
+    animation-name: shortj;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shortj {
+  0% {height: 130px;}
+  25% {height: 120px;} 
+  50% {height: 105px;} 
+  75% {height: 90px;}
+  100% {height: 75px;}
+}
+
+#L:hover .horizontal.bottom{
+    animation-name: elgtj;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgtj {
+  0% {width: 42.5px;}
+  25% {width: 55px;} 
+  50% {width: 75px;} 
+  75% {width: 90px;}
+  100% {width: 100px;}
+}
 
 /* for M only*/
 #M .smallo.left{
@@ -691,6 +1064,34 @@
     top: 6px;
 }
 
+#M:hover .verticle_long.left{
+    animation-name: shortk;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shortk {
+  0% {height: 130px;}
+  25% {height: 120px;} 
+  50% {height: 105px;} 
+  75% {height: 90px;}
+  100% {height: 75px;}
+}
+
+#M:hover .verticle_long.right{
+    animation-name: elgtk;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgtk {
+  0% {height: 130px;}
+  25% {height: 140px;} 
+  50% {height: 155px;} 
+  75% {height: 170px;}
+  100% {height: 190px;}
+}
+
 #M .verticle_long.right{
     right: 0px;
     top: 6px;
@@ -710,6 +1111,20 @@
     transform: rotate(7deg);
 }
 
+#M .smallcore.left{
+   left: 2px;
+   top: 3px;
+}
+
+#M .smallcore.right{
+   right: 2px;
+   top: 3px;
+}
+
+#M .smallcore.mid{
+   left: 24px;
+    bottom: 8px;
+}
 
 
 /* for N only*/
@@ -728,6 +1143,34 @@
     left: 0px;
 }
 
+#N:hover .verticle_long.left{
+    animation-name: elgtl;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgtl {
+  0% {height: 130px;}
+  25% {height: 140px;} 
+  50% {height: 155px;} 
+  75% {height: 170px;}
+  100% {height: 185px;}
+}
+
+#N:hover .verticle_long.right{
+    animation-name: shortl;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shortl {
+  0% {height: 130px;}
+  25% {height: 120px;} 
+  50% {height: 105px;} 
+  75% {height: 90px;}
+  100% {height: 75px;}
+}
+
 #N .verticle_long.right{
     bottom: 5px;
     right: 0px;
@@ -738,6 +1181,16 @@
     left: 26px;
     -webkit-transform: rotate(8deg); /* Safari 3-8 */
     transform: rotate(-13deg);
+}
+
+#N .bigcore.top{
+    left: 2px;
+    top: 6px;
+}
+
+#N .bigcore.bottom{
+    bottom: 6px;
+    right: 2px;
 }
 
 /* for O only*/
@@ -781,6 +1234,25 @@
     bottom: 0px;
 }
 
+#O .bigcore.left_1{
+    left: 2px;
+    top: 6px;
+}
+
+#O .bigcore.left_2{
+    left: 2px;
+    bottom: 6px;
+}
+
+#O .bigcore.right_1{
+    right: 2px;
+    top: 6px;
+}
+
+#O .bigcore.right_2{
+    right: 2px;
+    bottom: 6px;
+}
 /* for P only*/
 #P .bigo.left{
     top: 0px;
@@ -828,8 +1300,28 @@
 #P .verticle_a.left{
     left: 8px;
     bottom: 2px;
+    height: 70px;
 }
 
+#P .bigcore.left{
+    left: 2px;
+    top: 6px;
+}
+
+#P .bigcore.right_1{
+    right: 2px;
+    top: 6px;
+}
+
+#P .bigcore.right_2{
+    right: 2px;
+    top: 55px;
+}
+
+#P .smallcore.left{
+    left: 10px;
+    top: 65px;
+}
 /*for Q only*/
 #Q .bigo.left_top{
     top: 0px;
@@ -878,6 +1370,25 @@
     transform: rotate(90deg);
 }
 
+#Q .bigcore.left_1{
+    left: 2px;
+    top: 6px;
+}
+
+#Q .bigcore.left_2{
+    left: 2px;
+    bottom: 6px;
+}
+
+#Q .bigcore.right_1{
+    right: 2px;
+    top: 6px;
+}
+
+#Q .bigcore.right_2{
+    right: 2px;
+    bottom: 6px;
+}
 /* for R only*/
 #R .bigo.left{
     left: 0px;
@@ -930,6 +1441,26 @@
     height: 82px;
 }
 
+#R .bigcore.left{
+    left: 2px;
+    top: 6px;
+}
+
+#R .bigcore.right_1{
+    right: 2px;
+    top: 6px;
+}
+
+#R .bigcore.right_2{
+    right: 2px;
+    top: 55px;
+}
+
+#R .smallcore.left{
+    left: 10px;
+    top: 65px;
+}
+
 /* for T only*/
 #T .smallo.center{
     top: 0px;
@@ -952,6 +1483,10 @@
     right: 23px;
 }
 
+#T .smallcore.mid{
+    top: 3px;
+    left: 24px;
+}
 
 /* for U only*/
 #U .bigo.left{
@@ -979,6 +1514,16 @@
     right: 5px;
 }
 
+#U .bigcore.left{
+    bottom: 6px;
+    left: 2px;
+}
+
+#U .bigcore.right{
+    bottom: 6px;
+    right: 2px;
+}
+
 /* for V only*/
 #V .bigo.bottom{
     left: 20px;
@@ -999,6 +1544,10 @@
     transform: rotate(10deg);   
 }
 
+#V .bigcore.mid{
+    left: 22px;
+    bottom: 6px;
+}
 /* for W only*/
 #W .smallo.left{
     left: 0px;
@@ -1039,6 +1588,21 @@
     -webkit-transform: rotate(8deg); 
     transform: rotate(-15deg); 
     height: 55px;
+}
+
+#W .smallcore.left{
+   bottom: 3px;
+   left: 2px;
+}
+
+#W .smallcore.mid{
+   bottom: 58px;
+   left: 24px;
+}
+
+#W .smallcore.right{
+   bottom: 3px;
+   right: 2px;
 }
 
 /* for X only*/
@@ -1104,6 +1668,20 @@
     height: 73px;
 }
 
+#X .smallcore.top{
+    right: 2px;
+    top: 3px;
+}
+
+#X .smallcore.mid{
+    top: 69px;
+    right: 24px;
+}
+
+#X .smallcore.bottom{
+    right: 2px;
+    bottom: 3px;
+}
 
 /* for Y only*/
 #Y .smallo.center{
@@ -1139,6 +1717,11 @@
     height: 75px;
 }
 
+#Y .smallcore.mid{
+    left: 24px;
+    top: 62px;
+}
+
 /* for Z only*/
 #Z .bigo.left{
     left: 0px;
@@ -1165,6 +1748,16 @@
     top: 5px;
     -webkit-transform: rotate(8deg); 
     transform: rotate(22deg);  
+}
+
+#Z .bigcore.left{
+   bottom: 6px;
+   left: 2px;
+}
+
+#Z .bigcore.right{
+    top: 6px;
+    right: 2px;
 }
 
 /* for 1 only*/

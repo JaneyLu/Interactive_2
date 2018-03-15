@@ -98,6 +98,19 @@ body{
     100% {transform:rotate(100deg);}
 }
 
+.number:hover .smallcore{
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate{
+    0% {transform:rotate(0deg);}
+    25% {transform:rotate(25deg);}
+    50% {transform:rotate(50deg);}
+    75% {transform:rotate(75deg);}
+    100% {transform:rotate(100deg);}
+}
 .verticle_long{
     height: 130px;
     width: 2px;
