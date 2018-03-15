@@ -6,7 +6,8 @@ body{
     margin: 50px;
     width: auto;
     height: 1500px;
-    position: center;
+    left: 50%;
+    right: 50%;
 }
 
 .sciencewrap{
