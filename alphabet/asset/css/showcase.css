@@ -9,6 +9,7 @@
 .showcase:hover .Bbigcore {
     animation-name: rotation;
     animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .showcase:hover .Bsmallcore {
@@ -27,6 +28,7 @@
 .showcase:hover .Bverticle_e.right{
     animation-name: growa;
     animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes growa {
@@ -40,6 +42,7 @@
 .showcase:hover .Bverticle_e.left{
     animation-name: shortena;
     animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes shortena {
@@ -53,6 +56,7 @@
 .showcase:hover #BN .Bverticle_long.right{
     animation-name: grow;
     animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes grow {
@@ -66,6 +70,7 @@
 .showcase:hover #BN .Bverticle_long.left{
     animation-name: shorten;
     animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes shorten {
@@ -79,6 +84,7 @@
 .showcase:hover #BA .Bverticle_f.left{
     animation-name: growb;
     animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes growb {
@@ -92,6 +98,7 @@
 .showcase:hover #BA .Bverticle_f.right{
     animation-name: shortenb;
     animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes shortenb {
@@ -154,7 +161,8 @@
 
 .Bsmallcore:hover{
     animation-name: rotationhe;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
     
 }
 
@@ -454,6 +462,7 @@
 #BA:hover .Bverticle_f.left{
     animation-name: growb;
     animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes growb {
@@ -467,6 +476,7 @@
 #BA:hover .Bverticle_f.right{
     animation-name: shortenb;
     animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes shortenb {
@@ -534,6 +544,7 @@
 .showcase:hover #BM .Bverticle_long.left{
     animation-name: growc;
     animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes growc {
@@ -547,6 +558,7 @@
 .showcase:hover #BM .Bverticle_long.right{
     animation-name: shortenc;
     animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes shortenc {
@@ -658,6 +670,7 @@
 .showcase:hover #BC .Bverticle_d.right1{
     animation-name: growd;
     animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes growd {
@@ -671,6 +684,7 @@
 .showcase:hover #BC .Bverticle_d.right2{
     animation-name: shortend;
     animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes shortend {

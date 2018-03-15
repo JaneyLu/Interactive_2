@@ -10,9 +10,8 @@ body{
 }
 
 .sciencewrap{
-    margin: 180px 50px 50px 50px;
+    margin: 180px 50px 500px 50px;
     width: auto;
-    height: 800px;
 }
 
 .showcase{
@@ -51,6 +50,21 @@ body{
     width: 9px;
     height: 2px;
     background-color: white;
+    position: absolute;
+}
+
+.letter:hover .bigcore{
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate{
+    0% {transform:rotate(0deg);}
+    25% {transform:rotate(25deg);}
+    50% {transform:rotate(50deg);}
+    75% {transform:rotate(75deg);}
+    100% {transform:rotate(100deg);}
 }
 
 .smallo{
@@ -67,6 +81,21 @@ body{
     width: 5px;
     height: 2px;
     background-color: white;
+    position: absolute;
+}
+
+.letter:hover .smallcore{
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate{
+    0% {transform:rotate(0deg);}
+    25% {transform:rotate(25deg);}
+    50% {transform:rotate(50deg);}
+    75% {transform:rotate(75deg);}
+    100% {transform:rotate(100deg);}
 }
 
 .verticle_long{
@@ -150,4 +179,14 @@ body{
     height: 2px;
     background-color: white;
     position: absolute;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 20px solid white;
+    position: relative;
+    float: right;
 }
