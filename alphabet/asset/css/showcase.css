@@ -15,6 +15,7 @@
 .showcase:hover .Bsmallcore {
     animation-name: rotation;
     animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes rotation {

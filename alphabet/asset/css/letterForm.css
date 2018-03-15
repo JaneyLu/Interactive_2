@@ -17,7 +17,7 @@
 
 #A .verticle_a.right{
     right: 0px;
-    bottom: 0px;
+    top: 72px;
 }
 
 #A .horizontal.middle{
@@ -62,12 +62,27 @@
 }
 
 @keyframes elgta {
-  0% {height: 38px;}
-  25% {height: 50px;} 
-  50% {height: 70px;} 
+  0% {height: 68px;}
+  25% {height: 80px;} 
+  50% {height: 90px;} 
   75% {height: 100px;}
   100% {height: 120px;}
 }
+
+#A:hover .verticle_a.right{
+    animation-name: shorta;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shorta {
+  0% {height: 68px;}
+  25% {height: 60px;} 
+  50% {height: 50px;} 
+  75% {height: 35px;}
+  100% {height: 15px;}
+}
+
 
 /*for B only*/
 #B .bigo.left_1{
@@ -151,6 +166,36 @@
     top: 5px;
 }
 
+#B .bigcore.left_2{
+    left: 2px;
+    bottom: 6px;
+}
+
+#B .bigcore.right_1{
+    left: 42px;
+    top: 5px;
+}
+
+#B .bigcore.right_2{
+    left: 42px;
+    bottom: 6px;
+}
+
+#B .bigcore.mid{
+    left: 42px;
+    top: 73px;
+}
+
+#B .smallcore.left{
+    left: 2px;
+    top: 66px;
+}
+
+#B .smallcore.right{
+    right: 2px;
+    top: 59px;
+}
+
 /*for C only*/
 #C .verticle_long.left{
     left: 0px;
@@ -197,6 +242,25 @@
     bottom: 5px;
 }
 
+#C .bigcore.left_1{
+    left: 2px;
+    top: 6px;
+}
+
+#C .bigcore.left_2{
+    left: 2px;
+    bottom: 6px;
+}
+
+#C .bigcore.right_1{
+    right: 2px;
+    top: 6px;
+}
+
+#C .bigcore.right_2{
+    right: 2px;
+    bottom: 6px;
+}
 /*for D only*/
 
 #D .verticle_long.left{
