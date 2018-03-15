@@ -2025,6 +2025,25 @@
     top:4px;    
 }
 
+#one .smallcore.top{
+    top: 3px;
+    left: 16px;
+}
+
+#one:hover .verticle_long.only{
+    animation-name: elgt1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgt1 {
+  0% {height: 130px;}
+  25% {height: 140px;} 
+  50% {height: 155px;} 
+  75% {height: 170px;}
+  100% {height: 190px;}
+}
+
 /* for 2 only*/
 #two .smallo.top{
     top: 0px;
@@ -2048,7 +2067,7 @@
 
 #two .horizontal_s.top{
     top: 0px;
-    left: 2px;
+    right: 6px;
 }
 
 #two .horizontal_s.mid{
@@ -2061,6 +2080,36 @@
     left: 5px;
 }
 
+#two:hover .horizontal_s.top{
+    animation-name: short2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes short2 {
+  0% {width: 20px;}
+  25% {width: 15px;} 
+  50% {width: 10px;} 
+  75% {width: 5px;}
+  100% {width: 0px;}
+}
+
+#two:hover .horizontal_s.bottom{
+    animation-name: elgt2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgt2 {
+  0% {width: 20px;}
+  25% {width: 35px;} 
+  50% {width: 50px;} 
+  75% {width: 75px;}
+  100% {width: 90px;}
+}
+
+
+
 #two .verticle_a.left{
     bottom: 4px;
     left: 0px;
@@ -2071,6 +2120,26 @@
     top: 3px;
     right: 0px;
     height: 62px
+}
+
+#two .smallcore.top{
+    top: 3px;
+    right: 2px;
+}
+
+#two .smallcore.bottom{
+    left: 2px;
+    bottom: 6px;
+}
+
+#two .smallcore.mid_1{
+    top: 73px;
+    left: 2px;
+}
+
+#two .smallcore.mid_2{
+    right: 2px;
+    top: 65px;
 }
 
 /* for 3 only*/
@@ -2109,6 +2178,49 @@
     right: 5px;
 }
 
+#three:hover .horizontal_s.top{
+    animation-name: elgt3;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgt3 {
+  0% {width: 20px;}
+  25% {width: 35px;} 
+  50% {width: 50px;} 
+  75% {width: 75px;}
+  100% {width: 90px;}
+}
+
+#three:hover .horizontal_s.bottom{
+    animation-name:short3;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes short3 {
+  0% {width: 20px;}
+  25% {width: 15px;} 
+  50% {width: 10px;} 
+  75% {width: 5px;}
+  100% {width: 0px;}
+}
+
+#three .smallcore.top{
+    right: 2px;
+    top: 3px;
+}
+
+#three .smallcore.mid{
+    top: 65px;
+    right: 2px;
+}
+
+#three .smallcore.bottom{
+    bottom: 6px;
+    right: 2px;
+}
+
 /* for 4 only*/
 #four .smallo.left{
     top: 62px;
@@ -2126,9 +2238,37 @@
     height: 140px;
 }
 
+#four:hover .verticle_long.right{
+    animation-name: short4;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes short4 {
+  0% {height: 130px;}
+  25% {height: 115px;} 
+  50% {height: 100px;} 
+  75% {height: 90px;}
+  100% {height: 75px;}
+}
+
 #four .verticle_a.left{
-    right: 0px;
-    top: 5px;
+    left: 0px;
+    bottom: 71px;
+}
+
+#four:hover .verticle_a.left{
+    animation-name: elgt4;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgt4 {
+  0% {height: 68px;}
+  25% {height: 80px;} 
+  50% {height: 95px;} 
+  75% {height: 110px;}
+  100% {height: 125px;}
 }
 
 #four .horizontal_s.mid_1{
@@ -2145,6 +2285,15 @@
     transform: rotate(-22deg);
 }
 
+#four .smallcore.left{
+    left: 2px;
+    top: 65px;
+}
+
+#four .smallcore.right{
+    right: 2px;
+    top: 65px;
+}
 
 /*for 5 only*/
 #five .smallo.top{
@@ -2182,6 +2331,33 @@
     right: 5px;
 }
 
+#five:hover .horizontal_s.top{
+    animation-name: elgt5;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgt5 {
+  0% {width: 20px;}
+  25% {width: 35px;} 
+  50% {width: 50px;} 
+  75% {width: 75px;}
+  100% {width: 90px;}
+}
+
+#five:hover .horizontal_s.bottom{
+    animation-name: short5;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes short5 {
+  0% {width: 20px;}
+  25% {width: 15px;} 
+  50% {width: 10px;} 
+  75% {width: 5px;}
+  100% {width: 0px;}
+}
 #five .verticle_a.left{
     top: 5px;
     left: 0px;
@@ -2193,6 +2369,27 @@
     right: 0px;
     height: 62px
 }
+
+#five .smallcore.top{
+    top: 3px;
+    left: 2px;
+}
+
+#five .smallcore.bottom{
+    right: 2px;
+    bottom: 6px;
+}
+
+#five .smallcore.mid_1{
+    top: 73px;
+    right: 2px;
+}
+
+#five .smallcore.mid_2{
+    left: 2px;
+    top: 65px;
+}
+
 
 /*for 6 only*/
 #six .smallo.top{
@@ -2227,7 +2424,35 @@
 
 #six .horizontal_s.mid{
     top: 70px;
-    left: 3px;
+    right: 5px;
+}
+
+#six:hover .horizontal_s.mid{
+    animation-name: elgt6;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgt6 {
+  0% {width: 20px;}
+  25% {width: 35px;} 
+  50% {width: 50px;} 
+  75% {width: 75px;}
+  100% {width: 90px;}
+}
+
+#six:hover .horizontal_s.top{
+    animation-name: short6;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes short6 {
+  0% {width: 20px;}
+  25% {width: 15px;} 
+  50% {width: 10px;} 
+  75% {width: 5px;}
+  100% {width: 0px;}
 }
 
 #six .horizontal_s.bottom{
@@ -2246,6 +2471,31 @@
     height: 62px
 }
 
+#six .smallcore.top{
+    top: 3px;
+    left: 2px;
+}
+
+#six .smallcore.bottom{
+    right: 2px;
+    bottom: 6px;
+}
+
+#six .smallcore.mid_1{
+    top: 73px;
+    right: 2px;
+}
+
+#six .smallcore.mid_2{
+    left: 2px;
+    top: 65px;
+}
+
+#six .smallcore.left_2{
+    left: 2px;
+    bottom: 6px;
+}
+
 /*for 7 only*/
 #seven .smallo.only{
     top: 0px;
@@ -2262,6 +2512,38 @@
     top: 0px;
 }
 
+#seven .smallcore.top{
+    top: 3px;
+    right: 2px;
+}
+
+#seven:hover .horizontal_s.top{
+    animation-name: elgt7;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgt7 {
+  0% {width: 20px;}
+  25% {width: 35px;} 
+  50% {width: 50px;} 
+  75% {width: 75px;}
+  100% {width: 90px;}
+}
+
+#seven:hover .verticle_long.right{
+    animation-name: short7;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes short7 {
+  0% {height: 130px;}
+  25% {height: 115px;} 
+  50% {height: 100px;} 
+  75% {height: 90px;}
+  100% {height: 70px;}
+}
 /*for 8 only*/
 #eight .smallo.top_1{
     top: 0px;
@@ -2326,6 +2608,36 @@
     right: 0px;
     top: 5px;
 }
+
+#eight .smallcore.top_1{
+    top: 3px;
+    left: 2px;
+}
+
+#eight .smallcore.top_2{
+    top: 3px;
+    right: 2px;
+}
+
+#eight .smallcore.mid_1{
+    left: 2px;
+    top: 65px;
+}
+
+#eight .smallcore.mid_2{
+    right: 2px;
+    top: 65px;
+}
+
+#eight .smallcore.bottom_1{
+    bottom: 5px;
+    left: 2px;
+}
+
+#eight .smallcore.bottom_2{
+    bottom: 5px;
+    right: 2px;
+}
 /* for 9 only*/
 #nine .smallo.top_1{
     top: 0px;
@@ -2379,6 +2691,46 @@
     left: 0px;
     height: 60px;
 }
+
+#nine .smallcore.top_1{
+    top: 3px;
+    left: 2px;
+}
+
+#nine .smallcore.top_2{
+    top: 3px;
+    right: 2px;
+}
+
+#nine .smallcore.mid_1{
+    left: 2px;
+    top: 65px;
+}
+
+#nine .smallcore.mid_2{
+    right: 2px;
+    top: 65px;
+}
+
+#nine .smallcore.bottom{
+    bottom: 5px;
+    right: 2px;
+}
+
+#nine:hover .horizontal_s.bottom{
+    animation-name: elgt9;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elgt9 {
+  0% {width: 20px;}
+  25% {width: 35px;} 
+  50% {width: 50px;} 
+  75% {width: 75px;}
+  100% {width: 90px;}
+}
+
 /*for 0 only*/
 #zero .smallo.top_1{
     top: 0px;
@@ -2418,5 +2770,25 @@
 #zero .horizontal_s.bottom{
     bottom: 2px;
     left: 5px;
+}
+
+#zero .smallcore.top_1{
+    top: 3px;
+    left: 2px;
+}
+
+#zero .smallcore.top_2{
+    top: 3px;
+    right: 2px;
+}
+
+#zero .smallcore.bottom_1{
+    bottom: 5px;
+    left: 2px;
+}
+
+#zero .smallcore.bottom_2{
+    bottom: 5px;
+    right: 2px;
 }
 
