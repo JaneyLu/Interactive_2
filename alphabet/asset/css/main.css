@@ -21,7 +21,7 @@ body{
 }
 
 .letter{
-    width: 53.5px;
+  width: 53.5px;
 	height: 140px;
 	position: relative;
 	display: inline-block;
@@ -214,4 +214,3 @@ body{
     position: relative;
     float: right;
 }
-
