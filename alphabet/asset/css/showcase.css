@@ -1,0 +1,697 @@
+.ShowcaseLetter{
+    width: 107px;
+	height: 280px;
+	position: relative;
+	display: inline-block;
+	margin: 16px;
+}
+/*for animation*/
+.showcase:hover .Bbigcore {
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.showcase:hover .Bsmallcore {
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+    0% {transform:rotate(0deg);}
+    25% {transform:rotate(90deg);}
+    50% {transform:rotate(180deg);}
+    75% {transform:rotate(270deg);}
+    100% {transform:rotate(360deg);}
+}
+
+.showcase:hover .Bverticle_e.right{
+    animation-name: growa;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes growa {
+  0% {height: 126px;}
+  25% {height: 150px;} 
+  50% {height: 180px;} 
+  75% {height: 200px;}
+  100% {height: 230px;}
+}
+
+.showcase:hover .Bverticle_e.left{
+    animation-name: shortena;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shortena {
+  0% {height: 126px;}
+  25% {height: 110px;} 
+  50% {height: 100px;} 
+  75% {height: 80px;}
+  100% {height: 50px;}
+}
+
+.showcase:hover #BN .Bverticle_long.right{
+    animation-name: grow;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes grow {
+  0% {height: 260px;}
+  25% {height: 300px;} 
+  50% {height: 340px;} 
+  75% {height: 380px;}
+  100% {height: 420px;}
+}
+
+.showcase:hover #BN .Bverticle_long.left{
+    animation-name: shorten;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shorten {
+  0% {height: 260px;}
+  25% {height: 250px;} 
+  50% {height: 220px;} 
+  75% {height: 200px;}
+  100% {height: 180px;}
+}
+
+.showcase:hover #BA .Bverticle_f.left{
+    animation-name: growb;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes growb {
+  0% {height: 140px;}
+  25% {height: 160px;} 
+  50% {height: 200px;} 
+  75% {height: 220px;}
+  100% {height: 230px;}
+}
+
+.showcase:hover #BA .Bverticle_f.right{
+    animation-name: shortenb;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shortenb {
+  0% {height: 140px;}
+  25% {height: 120px;} 
+  50% {height: 100px;} 
+  75% {height: 90px;}
+  100% {height: 80px;}
+}
+
+/*other parts*/
+.Bbigo{
+    width: 18px;
+	height: 18px;
+
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    border: 3px solid white;
+    position: absolute;
+}
+
+.Bsmallo{
+    width: 10px;
+	height: 10px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    border: 3px solid white;
+    position: absolute;
+}
+
+.Bverticle_long{
+    height: 260px;
+    width: 3px;
+    background-color: white;
+    position: absolute;
+}
+
+.Bbigcore{
+    width: 18px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+}
+
+.Bverticle_short{
+    height: 160px;
+    width: 3px;
+    background-color: white;
+    position: absolute;
+}
+
+.Bsmallcore{
+    width: 10px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+}
+
+.Bsmallcore:hover{
+    animation-name: rotationhe;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes rotationhe {
+    0% {transform:rotate(0deg);}
+    25% {transform:rotate(90deg);}
+    50% {transform:rotate(180deg);}
+    75% {transform:rotate(270deg);}
+    100% {transform:rotate(360deg);}
+}
+
+
+.Bverticle_0{
+    height: 200px;
+    width: 3px;
+    background-color: white;
+    position: absolute;
+}
+
+.Bverticle_0:hover{
+    animation-name: grow;
+    animation-duration: 1.5s;
+}
+
+@keyframes grow {
+  0% {height: 200px;}
+  25% {height: 240px;} 
+  50% {height: 280px;} 
+  75% {height: 320px;}
+  100% {height: 360px;}
+}
+
+
+.Bverticle_a{
+    height:126px;
+    width: 3px;
+    background-color: white;
+    position: absolute;
+}
+
+.Bverticle_b{
+    height:125px;
+    width: 3px;
+    background-color: white;
+    position: absolute;   
+}
+
+.Bverticle_c{
+    height:110px;
+    width: 3px;
+    background-color: white;
+    position: absolute;   
+}
+
+.Bverticle_d{
+    height: 38px;
+    width: 3px;
+    background-color: white;
+    position: absolute;    
+}
+
+
+.Bverticle_e{
+    height: 165px;
+    width: 3px;
+    background-color: white;
+    position: absolute;    
+}
+
+.Bverticle_f{
+    height: 140px;
+    width: 3px;
+    background-color: white;
+    position: absolute;    
+}
+
+.Brotate_1{
+    width: 3px;
+    height: 140px;
+    background-color: white;
+    position: absolute;
+    -webkit-transform: rotate(19deg); /* Safari 3-8 */
+    transform: rotate(19deg);
+    border-top-right-radius: 900px;
+}
+
+.Brotate_2{
+    width: 3px;
+    height: 140px;
+    background-color: white;
+    position: absolute;
+    -webkit-transform: rotate(-19deg); /* Safari 3-8 */
+    transform: rotate(-19deg);
+}
+
+.Bhorizontal{
+    width: 85px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    
+}
+
+/*for D only*/
+#BD .Bverticle_long.left{
+    left: 0px;
+    top: 10px;
+}
+
+#BD .Bbigo.left_1{
+    top: 0px;
+    left: 0px;
+}
+
+#BD .Bbigo.left_2{
+    bottom: 0px;
+    left: 0px;
+}
+
+#BD .Bbigo.right_1{
+    top: 28px;
+    right: 0px;
+}
+
+#BD .Bbigo.right_2{
+    bottom: 28px;
+    right: 0px;
+}
+
+#BD .Bhorizontal.inter1{
+    left: 14px;
+    top: 14px;
+    -webkit-transform: rotate(19deg); /* Safari 3-8 */
+    transform: rotate(19deg);   
+}
+
+#BD .Bhorizontal.inter2{
+    left: 14px;
+    top: 262px;
+    -webkit-transform: rotate(19deg); /* Safari 3-8 */
+    transform: rotate(-19deg);  
+}
+
+#BD .Bverticle_0.right{
+    right: 0px;
+    top: 38px;
+}
+
+#BD .Bbigcore.left_1{
+    left: 3px;
+    top: 10px;
+}
+
+#BD .Bbigcore.left_2{
+    left: 3px;
+    bottom: 10px;
+}
+
+#BD .Bbigcore.right_1{
+    right: 3px;
+    top: 38px;
+}
+
+#BD .Bbigcore.right_2{
+    right: 3px;
+    bottom: 38px;
+}
+
+/*for Y only*/
+#BY .Bsmallo.mid{
+    top: 108px;
+    left: 46px;
+}
+
+#BY .Bverticle_e.left{
+    top: 115px;
+    left: 46px;
+}
+
+#BY .Bverticle_e.right{
+    top: 115px;
+    right: 45px;
+}
+
+#BY .Bverticle_a.left{
+    top: 0px;
+    left: 21px;
+    -webkit-transform: rotate(19deg); /* Safari 3-8 */
+    transform: rotate(-23deg); 
+}
+
+#BY .Bverticle_a.right{
+    top: 0px;
+    right: 21px;
+    -webkit-transform: rotate(19deg); /* Safari 3-8 */
+    transform: rotate(23deg); 
+}
+
+#BY .Bsmallcore.mid{
+    top: 115px;
+    left: 49px;
+}
+/* only for N*/
+#BN .Bbigo.left{
+    left: 0px;
+    top: 0px;
+}
+
+#BN .Bbigo.right{
+    right: 0px;
+    bottom: 0px;
+}
+
+#BN .Bverticle_long.left{
+    top: 10px;
+    left: 0pxl;
+}
+
+#BN .Bverticle_long.right{
+    bottom: 10px;
+    right: 0px;
+}
+
+#BN .Bverticle_long.mid{
+    left: 52px;
+    top: 10px;
+    -webkit-transform: rotate(19deg); /* Safari 3-8 */
+    transform: rotate(-14deg);
+}
+
+#BN .Bbigcore.left{
+    top: 10px;
+    left: 3px;
+}
+
+#BN .Bbigcore.right{
+    bottom: 10px;
+    right: 3px;
+}
+
+/* only for A*/
+#BA .Brotate_1.left{
+    left: 24px;
+    top: 0px;
+}
+
+#BA .Brotate_2.right{
+    right: 24px;
+    top: 0px;
+}
+
+#BA .Bverticle_f.left{
+    left: 0px;
+    top: 140px;
+}
+
+#BA .Bverticle_f.right{
+    right: 0px;
+    top: 140px;
+}
+
+#BA .Bhorizontal.middle{
+    left: 10px;
+    top: 130px;
+}
+
+#BA .Bsmallo.top{
+    top:0px;
+    left: 45px;
+}
+
+#BA .Bbigo.left{
+    top:130px;
+    left: 0px;
+}
+
+#BA .Bbigo.right{
+    top:130px;
+    right: 0px;
+}
+
+#BA .Bbigcore.left{
+    top: 140px;
+    left: 3px;
+}
+
+#BA .Bbigcore.right{
+    top: 140px;
+    right: 3px;
+}
+
+#BA .Bsmallcore.mid{
+    top: 7px;
+    right: 49px;
+}
+
+#BA:hover .Bverticle_f.left{
+    animation-name: growb;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes growb {
+  0% {height: 140px;}
+  25% {height: 160px;} 
+  50% {height: 200px;} 
+  75% {height: 220px;}
+  100% {height: 230px;}
+}
+
+#BA:hover .Bverticle_f.right{
+    animation-name: shortenb;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shortenb {
+  0% {height: 140px;}
+  25% {height: 120px;} 
+  50% {height: 100px;} 
+  75% {height: 90px;}
+  100% {height: 80px;}
+}
+/*only for M*/
+#BM .Bsmallo.left{
+    left: 0px;
+    top: 3px;
+}
+
+#BM .Bsmallo.mid{
+    left: 46px;
+    bottom: 5px;
+}
+
+#BM .Bsmallo.right{
+    right: 0px;
+    top: 3px;
+}
+
+#BM .Bverticle_long.left{
+    left: 0px;
+    top: 12px;
+}
+
+#BM .Bverticle_long.right{
+    right: 0px;
+    top: 12px;
+}
+
+#BM .Bverticle_long.angle_a{
+    left: 30px;
+    top: 12px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(-7deg);
+}
+
+#BM .Bverticle_long.angle_b{
+    right: 30px;
+    top: 12px;
+    -webkit-transform: rotate(8deg); /* Safari 3-8 */
+    transform: rotate(7deg);
+}
+
+#BM .Bsmallcore.left{
+    top: 10px;
+    left: 3px;
+}
+
+#BM .Bsmallcore.right{
+    top: 10px;
+    right: 3px;
+}
+
+#BM .Bsmallcore.mid{
+    bottom: 12px;
+    right: 48px;
+}
+
+.showcase:hover #BM .Bverticle_long.left{
+    animation-name: growc;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes growc {
+  0% {height: 260px;}
+  25% {height: 300px;} 
+  50% {height: 340px;} 
+  75% {height: 380px;}
+  100% {height: 420px;}
+}
+
+.showcase:hover #BM .Bverticle_long.right{
+    animation-name: shortenc;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shortenc {
+  0% {height: 260px;}
+  25% {height: 250px;} 
+  50% {height: 220px;} 
+  75% {height: 200px;}
+  100% {height: 180px;}
+}
+
+/* for I only*/
+#BI .Bsmallo.top{
+    top: 0px;
+    left: 45px;
+}
+
+#BI .Bsmallo.bottom{
+    bottom: 0px;
+    left: 45px;
+}
+
+#BI .Bverticle_long.left{
+    top: 10px;
+    left: 45px;
+}
+
+#BI .Bverticle_long.right{
+    top: 10px;
+    right: 46px;
+}
+
+#BI .Bsmallcore.top{
+    top: 7px;
+    left: 48px;
+}
+
+#BI .Bsmallcore.bottom{
+    bottom: 7px;
+    right: 49px;
+}
+
+
+/* for C only*/
+#BC .Bverticle_long.left{
+    left: 0px;
+    top: 10px;
+}
+
+#BC .Bbigo.left_1{
+    top: 0px;
+    left: 0px;
+}
+
+#BC .Bbigo.left_2{
+    bottom: 0px;
+    left: 0px;
+}
+
+#BC .Bbigo.right_1{
+    top: 0px;
+    right: 0px;
+}
+
+#BC .Bbigo.right_2{
+    bottom: 0px;
+    right: 0px;
+}
+
+#BC .Bhorizontal.top{
+    top: 0px;
+    left: 10px;
+}
+
+#BC .Bhorizontal.bottom{
+    bottom: 0px;
+    left: 10px;
+}
+
+#BC .Bverticle_d.right1{
+    right: 0px;
+    top: 10px;
+}
+
+#BC .Bverticle_d.right2{
+    right: 0px;
+    bottom: 10px;
+}
+
+#BC .Bbigcore.left_1{
+    top: 10px;
+    left: 3px;
+}
+
+#BC .Bbigcore.right_1{
+    top: 10px;
+    right: 3px;
+}
+
+#BC .Bbigcore.left_2{
+    bottom: 10px;
+    left: 3px;
+}
+
+#BC .Bbigcore.right_2{
+    bottom: 10px;
+    right: 3px;
+}
+
+.showcase:hover #BC .Bverticle_d.right1{
+    animation-name: growd;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes growd {
+  0% {height: 38px;}
+  25% {height: 50px;} 
+  50% {height: 70px;} 
+  75% {height: 100px;}
+  100% {height: 120px;}
+}
+
+.showcase:hover #BC .Bverticle_d.right2{
+    animation-name: shortend;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shortend {
+  0% {height: 38px;}
+  25% {height: 30px;} 
+  50% {height: 20px;} 
+  75% {height: 10px;}
+  100% {height: 0px;}
+}

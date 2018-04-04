@@ -1,0 +1,290 @@
+body {
+	background-color: firebrick
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: pink;
+	position: relative;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid yellow;
+	position: absolute;
+	top: 203px;
+	left: 60px;
+}
+
+#square {
+	width: 150px;
+	height: 150px;
+	background: red;
+	top: 203px;
+	left: 270px;
+	position: absolute;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#circle {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	border-radius: 150px;
+	top: 203px;
+	left: 480px;
+	position: absolute;
+}
+
+#clip {
+	width: 150px;
+	height: 150px;
+	background: green;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	top: 203px;
+	left: 690px;
+	position: absolute;
+}
+
+#trapezoid {
+	border-bottom:280px solid;
+    color:rosybrown;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 200px;
+	width: 120px;
+	margin-left: 200px;
+    position: absolute;
+    z-index: 0;
+}
+
+#trapezoid_2 {
+	border-bottom:100px solid aliceblue;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	height: 100px;
+	width: 120px;
+    left: 500px;
+    position: absolute;
+}
+
+.star-six {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 40px solid lavender;
+	position: relative;
+    
+}
+.star-six:after {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 40px solid lavender;
+	position: absolute;
+	content: "";
+	top: 11px;
+	left:-20px;
+}
+
+#lav1{
+    top:100px;
+    left:360px;
+}
+
+#lav2{
+    top:130px;
+    left:350px;
+}
+
+#lav3{
+    top:100px;
+    left:320px;
+}
+
+#lav4{
+    top:15px;
+    left:290px;
+}
+
+#lav5{
+    top:-32px;
+    left:320px;
+}
+
+.square{
+    width: 140px;
+    height: 50px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 520px;
+    top: 50px;
+}
+
+.square_2{
+    width: 180px;
+    height: 120px;
+    background-color: skyblue;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+
+.square_3{
+    width: 180px;
+    height: 180px;
+    background-color: aliceblue;
+    position: absolute;
+    left: 500px;
+    top: 320px;
+}
+
+.stem{
+    width: 0;
+	height: 0;
+	border-left: 180px solid transparent;
+	border-right: 19px solid transparent;
+	border-bottom: 105px solid darkseagreen; position:absolute;
+    top: 100px;
+    left: 180px;    
+}
+
+.circle {
+	width: 300px;
+	height: 300px;
+	background: purple;
+	-moz-border-radius: 150px;
+	-webkit-border-radius: 150px;
+	border-radius: 150px;
+ position:absolute;
+}
+
+.circle_2 {
+	width: 180px;
+	height: 180px;
+	background: white;
+	-moz-border-radius: 90px;
+	-webkit-border-radius: 90px;
+	border-radius: 90px;
+    position: absolute;
+    left: 60px;
+    top: 258px;    
+}
+
+
+.triangle-bottomright {
+	width: 0;
+	height: 0;
+	border-bottom: 200px solid purple;
+	border-left: 300px solid transparent;
+    position: absolute;
+    color: purple;
+    top: 300px;
+    left: 150px;
+}
+
+.pen_1{
+    width: 300px;
+    height: 40px;
+    background-color:  darkblue;
+    border: 20px solid lightgrey;
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    -webkit-transform: rotate(-20deg); /* Safari 3-8 */
+    transform: rotate(-20deg);
+    z-index: 99;
+}
+
+.pen_2{
+    width: 300px;
+    height: 40px;
+    border: 20px solid grey;
+    background-color:  black;
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    -webkit-transform: rotate(7deg); /* Safari 3-8 */
+    transform: rotate(7deg);
+    z-index: 1;
+    
+}
+
+.cap_1{
+    border-bottom:100px solid;
+    color:darkblue;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	width: 80px;
+	margin-left: 200px;
+    position: absolute;
+    z-index: 0;
+    top: 325px;
+    left: 590px;
+    z-index: 888;
+    -webkit-transform: rotate(7deg); /* Safari 3-8 */
+    transform: rotate(-110deg);
+    z-index: 1;
+    
+}
+
+.cap_2{
+    border-bottom:100px solid;
+    color:black;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	width: 80px;
+	margin-left: 200px;
+    position: absolute;
+    z-index: 0;
+    top: 400px;
+    left: 590px;
+    z-index: 77;
+    -webkit-transform: rotate(7deg); /* Safari 3-8 */
+    transform: rotate(-90deg);
+    z-index: 1;
+}
+
+
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/

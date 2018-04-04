@@ -1,16 +1,13 @@
 body{
-    background-color: oldlace;
-    color: steelblue;
-    
-}
+      background-color: lightblue;
+    }
 
 h1{
-    font-family: 'Rammetto One', cursive;
-    font-size: 40px;
+    font-size: 40pt;
+    color: white;
 }
 
 h2{
-    font-family: 'IBM Plex Sans', sans-serif;
-    line-height: 20px;
-    font-size: 25px;
+    font-size:15pt;
+    color: white;
 }
