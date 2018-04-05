@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+
+.title{
+    font-family: 'Ubuntu', sans-serif;
+    color: lightcoral;
+    font-size: 40pt;
+    line-height: 140px;
+    margin-left: 150px;
+    margin-right: 80px;
+    position: relative;
+}
+
+.text{
+    font-family: 'Cormorant Garamond', serif;
+    color: dimgrey;
+    font-size: 12pt;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.pttbox{
+    position: relative;
+    width: 50%;
+}
+
+img{
+    display:block;
+}
+
+/* Animation for Portraits*/
+.Araki img:nth-child(1) {
+    opacity:1;
+}
+.Araki img:nth-child(2) {
+    opacity:0;
+}
+
+.active img:nth-child(1) {
+    -webkit-animation: apart1 1s infinite;
+    animation: apart1 1s infinite;
+}
+
+.active img:nth-child(1) {
+    -webkit-animation: apart2 1s infinite;
+    animation: apart2 1s infinite;
+}
+
+@-webkit-keyframes apart1 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes apart2 {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+
+.img-holder img {
+  position:relative;
+}
+
+.Araki imh:nth-child(1) {
+    position: absolute;
+}
