@@ -43,12 +43,12 @@ img{
     opacity:0;
 }
 
-.active img:nth-child(1) {
+.active .Araki img:nth-child(1) {
     -webkit-animation: apart2 1s infinite;
     animation: apart2 1s infinite;
 }
 
-.active img:nth-child(1) {
+.active img:nth-child(2) {
     -webkit-animation: apart1 1s infinite;
     animation: apart1 1s infinite;
 }
