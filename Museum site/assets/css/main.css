@@ -44,13 +44,13 @@ img{
 }
 
 .active img:nth-child(1) {
-    -webkit-animation: apart1 1s infinite;
-    animation: apart1 1s infinite;
+    -webkit-animation: apart2 1s infinite;
+    animation: apart2 1s infinite;
 }
 
 .active img:nth-child(1) {
-    -webkit-animation: apart2 1s infinite;
-    animation: apart2 1s infinite;
+    -webkit-animation: apart1 1s infinite;
+    animation: apart1 1s infinite;
 }
 
 @-webkit-keyframes apart1 {
@@ -67,6 +67,6 @@ img{
   position:relative;
 }
 
-.Araki imh:nth-child(1) {
-    position: absolute;
+.Araki img:nth-child(1) {
+    position: absolute !important;
 }
