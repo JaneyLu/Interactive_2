@@ -58,7 +58,7 @@ img{
     to {opacity: 1;}
 }
 
-@keyframes apart2 {
+@-webkit-keyframes apart2 {
   from {opacity: 1;}
   to {opacity: 0;}
 }
@@ -70,3 +70,4 @@ img{
 .Araki img:nth-child(1) {
     position: absolute !important;
 }
+
