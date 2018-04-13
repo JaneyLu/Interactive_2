@@ -43,7 +43,7 @@ img{
     opacity:0;
 }
 
-.active .Araki img:nth-child(1) {
+.active img:nth-child(1) {
     -webkit-animation: apart2 1s infinite;
     animation: apart2 1s infinite;
 }
@@ -71,3 +71,75 @@ img{
     position: absolute !important;
 }
 
+/*Animation for Moriyama*/
+
+.Moriyama img:nth-child(1) {
+    opacity:1;
+}
+.Moriyama img:nth-child(2) {
+    opacity:0;
+}
+
+.active .Moriyama img:nth-child(1) {
+    -webkit-animation: bnw2 1s infinite;
+    animation: bnw2 1s infinite;
+}
+
+.active .Moriyama img:nth-child(2) {
+    -webkit-animation: bnw1 1s infinite;
+    animation: bnw1 1s infinite;
+}
+
+@-webkit-keyframes bnw1 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-webkit-keyframes bnw2 {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+
+.img-holder img {
+  position:relative;
+}
+
+.Moriyama img:nth-child(1) {
+    position: absolute !important;
+}
+
+/*Animation for Shiga*/
+.Shiga img:nth-child(1) {
+    opacity:1;
+}
+.Shiga img:nth-child(2) {
+    opacity:0;
+}
+
+.active .Shiga img:nth-child(1) {
+    -webkit-animation: light2 1s infinite;
+    animation: light2 1s infinite;
+}
+
+.active .Shiga img:nth-child(2) {
+    -webkit-animation: light1 1s infinite;
+    animation: light1 1s infinite;
+}
+
+@-webkit-keyframes light1 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-webkit-keyframes light2 {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+
+.img-holder img {
+  position:relative;
+}
+
+.Shiga img:nth-child(1) {
+    position: absolute !important;
+}
