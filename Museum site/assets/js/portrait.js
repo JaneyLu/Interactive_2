@@ -24,6 +24,6 @@ $(document).ready(function () {
     $( "#draggable_7" ).draggable({ cursor: "move", cursorAt: { top: 150, left: 160 } 
     });
     
-    $( "#draggable_8" ).draggable({ cursor: "move", cursorAt: { top: 150, left: 160 } 
+    $( "#draggable_8" ).draggable({ cursor: "move", cursorAt: { top: 250, left: 460 } 
     });
 });
