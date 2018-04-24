@@ -6,6 +6,16 @@ p{
     color: white;
     font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
+    z-index: 0;
+}
+
+.text{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    top: 430px;
+    left: 150px;
+    position: absolute;
 }
 
 
@@ -22,22 +32,76 @@ p{
     float: right;
 }
 
-#content{
+#content_1{
     background-color: white;
     color: black;
     font-family: 'Ubuntu', sans-serif; 
     width: 50%;
     height: 500px;
-    z-index: 99999;
+    z-index: 99 !important;
     text-align: center;
     display: block;
+    position: absolute;
+    top: 25%;
+    left: 25%;
 }
 
-#nmark{
-    
+.nmark{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin: 30px;
+    position: relative;
+}
+
+.circle{
+    width: 30px;
+	height: 30px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    border: 1px solid white;
+    position: absolute;
+}
+
+.line_1{
+    width: 0px ;
+	height: 30px;
+    border: 1px solid white;
+    -webkit-transform: rotate(45deg); /* Safari 3-8 */
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.line_2{
+    width: 0px ;
+	height: 30px;
+    border: 1px solid white;
+    -webkit-transform: rotate(-45deg); /* Safari 3-8 */
+    transform: rotate(-45deg);
+    left: 0px;
+    position: absolute;
 }
 
 img{
     z-index: -50;
     float: left;
+}
+
+#mark .line_1.left{
+    left: 15px;
+    top: 0px;
+}
+
+#mark .line_2.right{
+    left: 15px;
+    top: 0px;
+}
+
+#inblock{
+    display: inline-block;
+    left: 0;
+    top: 0;
+    position: absolute;
+    margin: 90px;
 }

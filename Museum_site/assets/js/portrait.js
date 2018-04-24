@@ -27,12 +27,20 @@ $(document).ready(function () {
     $( "#draggable_8" ).draggable({ cursor: "move", cursorAt: { top: 250, left: 460 } 
     });
     
-    $("#nmark").click(function(){
-        $("#content").hide();
+    $(".nmark").click(function(){
+        $("#content_1").hide();
     });
     
-    $("img").dblclick(function(){
-        $("#content").show();
+    $("#dbl_1").dblclick(function(){
+        $("#content_1").show();
+    });
+    
+    $("#dbl_1").dblclick(function(){
+        $(".nmark").show();
+    });
+    
+    $(".nmark").click(function(){
+        $(".nmark").hide();
     });
     
 });
