@@ -26,4 +26,13 @@ $(document).ready(function () {
     
     $( "#draggable_8" ).draggable({ cursor: "move", cursorAt: { top: 250, left: 460 } 
     });
+    
+    $("#nmark").click(function(){
+        $("#content").hide();
+    });
+    
+    $("img").dblclick(function(){
+        $("#content").show();
+    });
+    
 });

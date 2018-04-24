@@ -8,10 +8,6 @@ p{
     font-size: 40px;
 }
 
-li{
-   color: white;
-    font-family: 'Ubuntu', sans-serif; 
-}
 
 #nav{
     width: 30%;
@@ -26,4 +22,22 @@ li{
     float: right;
 }
 
+#content{
+    background-color: white;
+    color: black;
+    font-family: 'Ubuntu', sans-serif; 
+    width: 50%;
+    height: 500px;
+    z-index: 99999;
+    text-align: center;
+    display: block;
+}
 
+#nmark{
+    
+}
+
+img{
+    z-index: -50;
+    float: left;
+}
