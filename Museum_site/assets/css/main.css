@@ -10,18 +10,25 @@ p{
 }
 
 .text{
-    color: black;
+    color: darkgrey;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
-    top: 430px;
-    left: 150px;
+    font-size: 14px;
     position: absolute;
+}
+
+.text_2{
+    color: darkgrey;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    width: 100px;
+    height: auto;
 }
 
 
 #nav{
     width: 30%;
-    margin-left: 10px;
+    margin-left: 20px;
     position: absolute;
 }
 
@@ -36,22 +43,23 @@ p{
     background-color: white;
     color: black;
     font-family: 'Ubuntu', sans-serif; 
-    width: 50%;
+    width: 80%;
     height: 500px;
     z-index: 99 !important;
     text-align: center;
     display: block;
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 10%;
+    left: 10%;
 }
 
 .nmark{
     width: 35px;
     height: 35px;
     display: inline-block;
-    margin: 30px;
-    position: relative;
+    position: absolute;
+    top: -40px;
+    right: -40px;
 }
 
 .circle{
@@ -103,5 +111,23 @@ img{
     left: 0;
     top: 0;
     position: absolute;
-    margin: 90px;
+    margin: 70px;
 }
+
+.greylayer{
+    width: 100%;
+    height: 100%;
+    color:darkgray;
+    opacity: 0.5;
+    position: absolute;
+    margin: 0;
+    z-index: 2;
+}
+
+/*positioning of texts*/
+
+#content_1 .text{
+    left: 80px;
+    bottom: 30px;
+}
+
