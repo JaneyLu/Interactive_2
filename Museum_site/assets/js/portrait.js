@@ -28,19 +28,51 @@ $(document).ready(function () {
     });
     
     $(".nmark").click(function(){
-        $("#content_1").hide();
+        $("#content_1").fadeOut(250);
     });
     
     $("#dbl_1").dblclick(function(){
-        $("#content_1").show();
+        $("#content_1").fadeIn(500);
     });
     
     $("#dbl_1").dblclick(function(){
-        $(".nmark").show();
+        $("#content_1 .nmark").show();
     });
     
-    $(".nmark").click(function(){
-        $(".nmark").hide();
+    $("#content_1 .nmark").click(function(){
+        $("#content_1 .nmark").hide();
+    });
+    
+      $("#content_2 .nmark").click(function(){
+        $("#content_2").fadeOut(250);
+    });
+    
+    $("#dbl_2").dblclick(function(){
+        $("#content_2").fadeIn(500);
+    });
+    
+    $("#dbl_2").dblclick(function(){
+        $("#content_2 .nmark").show();
+    });
+    
+    $("#content_2 .nmark").click(function(){
+        $("#content_2 .nmark").hide();
+    });
+    
+    $("#content_3 .nmark").click(function(){
+        $("#content_3").fadeOut(250);
+    });
+    
+    $("#dbl_3").dblclick(function(){
+        $("#content_3").fadeIn(500);
+    });
+    
+    $("#dbl_3").dblclick(function(){
+        $("#content_3 .nmark").show();
+    });
+    
+    $("#content_3 .nmark").click(function(){
+        $("#content_3 .nmark").hide();
     });
     
 });
