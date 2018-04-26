@@ -5,8 +5,21 @@ body{
 p{
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     z-index: 0;
+}
+
+.header {
+  padding: 5px 20px;
+  color: #f1f1f1;
+  width: 380px;
+  height: auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .text{
@@ -14,6 +27,8 @@ p{
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     position: absolute;
+    width: 400px;
+    text-align: right;
 }
 
 .text_2{
@@ -26,13 +41,6 @@ p{
     z-index: 99999;
     text-align: left;
     line-height: 25px;
-}
-
-
-#nav{
-    width: 30%;
-    margin-left: 20px;
-    position: absolute;
 }
 
 .canvas{
@@ -53,7 +61,7 @@ p{
     display: block;
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 15%;
 }
 
 #content_2{
@@ -83,6 +91,77 @@ p{
     top: 10%;
     left: 12%;
 }
+
+#content_4{
+    background-color: white;
+    color: black;
+    font-family: 'Ubuntu', sans-serif; 
+    width: 75%;
+    height: 550px;
+    z-index: 99 !important;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 12%;
+}
+
+#content_5{
+    background-color: white;
+    color: black;
+    font-family: 'Ubuntu', sans-serif; 
+    width: 75%;
+    height: 500px;
+    z-index: 99 !important;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 12%;
+}
+
+#content_6{
+    background-color: white;
+    color: black;
+    font-family: 'Ubuntu', sans-serif; 
+    width: 60%;
+    height: 500px;
+    z-index: 99 !important;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+#content_7{
+    background-color: white;
+    color: black;
+    font-family: 'Ubuntu', sans-serif; 
+    width: 75%;
+    height: 500px;
+    z-index: 99 !important;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 12%;
+}
+
+#content_8{
+    background-color: white;
+    color: black;
+    font-family: 'Ubuntu', sans-serif; 
+    width: 75%;
+    height: 500px;
+    z-index: 99 !important;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 12%;
+}
+
 
 .nmark{
     width: 35px;
@@ -178,7 +257,8 @@ img{
 
 #content_2 .text{
     bottom: 33px;
-    left: 40px;
+    left: 45px;
+    text-align: left;
 }
 
 #content_2 .text_2{
@@ -192,11 +272,86 @@ img{
 }
 
 #content_3 .text{
-    bottom: 80px;
-    left: 190px;
+    bottom: 85px;
+    left: 135px;
 }
 
 #content_3 .text_2{
     right: 30px;
+    top: 100px;
+}
+
+#content_4 .inblock{
+    top: 40px;
+    left: 60px;
+}
+
+#content_4 .text{
+    bottom: 80px;
+    left: 140px;
+}
+
+#content_4 .text_2{
+    right: 30px;
+    top: 100px;
+}
+
+#content_5 .inblock{
+    top: 60px;
+    left: 60px;
+}
+
+#content_5 .text{
+    bottom: 60px;
+    left: 140px;
+}
+
+#content_5 .text_2{
+    right: 30px;
+    top: 100px;
+}
+
+#content_6 .inblock{
+    top: 45px;
+    left: 60px;
+}
+
+#content_6 .text{
+    bottom: 45px;
+    left: -70px;
+}
+
+#content_6 .text_2{
+    right: 40px;
+    top: 100px;
+}
+
+#content_7 .inblock{
+    top: 45px;
+    left: 60px;
+}
+
+#content_7 .text{
+    bottom: 45px;
+    left: 190px;
+}
+
+#content_7 .text_2{
+    right: -10px;
+    top: 100px;
+}
+
+#content_8 .inblock{
+    top: 45px;
+    left: 60px;
+}
+
+#content_8 .text{
+    bottom: 45px;
+    left: 190px;
+}
+
+#content_8 .text_2{
+    right: -10px;
     top: 100px;
 }
