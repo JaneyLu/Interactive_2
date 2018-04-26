@@ -13,17 +13,19 @@
         <script type="text/javascript" src="assets/js/portrait.js"></script>
   </head>
   <body>
-      <div class="header" id="myHeader"><p>
-      Japanese Postwar<br> Photography<br>
-      Nobuyoshi Arashi
+      
+      <div id="overlay" onclick="off()"></div>
+      
+     <div class="header" id="myHeader"><p>
+      <a href="pages/intro.html">Japanese Postwar<br> Photography<br>
+          Nobuyoshi Arashi</a>
       </p>
-        <ul></ul>
           
       </div>
       
-      <div class="canvas">
-          <div id="draggable"><img src="assets/img/body_1.png" width="30%" id="dbl_1"></div>
-          <div id="draggable_2"><img src="assets/img/body_2.png " id="dbl_2"></div>
+      <div class="canvas ">
+          <div id="draggable"><img src="assets/img/body_1.png" width="30%" dblclick="on()"  id="dbl_1"></div>
+          <div id="draggable_2"><img src="assets/img/body_2.png " id="dbl_2" dblclick="on()"></div>
           <div id="draggable_3"><img src="assets/img/body_4.png" width="30%" id="dbl_3"></div>
           <div id="draggable_4"><img src="assets/img/body_7.png" width="40%" id="dbl_4"></div>
           <div id="draggable_5"><img src="assets/img/clg_4.png" id="dbl_5" width="20%"></div>
@@ -31,7 +33,7 @@
           <div id="draggable_7"><img src="assets/img/clg_7.png" width="30%" id="dbl_7"></div>
           <div id="draggable_8"><img src="assets/img/clg_8.png" width="50%" id="dbl_8"></div>
       </div>
-      
+ 
       
        <div id="content_1" style="display: none;">
            <img src="assets/img/body_1_whole.jpg" class="inblock" width="50%">
@@ -46,7 +48,7 @@
                Dimensions: 11 3/4 in. x 16 in. (29.85 cm x 40.64 cm)<br>
                Date acquired: 2007<br>
            </div>
-           <div class="nmark" id="mark" style="display: none;">
+           <div class="nmark" id="mark" style="display: none;" onclick="off()">
             <div class="circle"></div>
             <div class="line_1 left"></div>
             <div class="line_2 right"></div>
@@ -68,7 +70,7 @@
                Dimensions: 28 3/4 x 22 in. (73.03 x 55.88 cm)<br>
                Date acquired: 2014<br>
            </div>
-           <div class="nmark" id="mark" style="display: none;">
+           <div class="nmark" id="mark" style="display: none;" onclick="off()">
           <div class="circle"></div>
           <div class="line_1 left"></div>
           <div class="line_2 right"></div>
@@ -89,7 +91,7 @@
                Dimensions：8 7/8 in. x 11 1/4 in. (22.54 cm x 28.58 cm)<br>
                Date acquired：2008<br>
            </div>
-           <div class="nmark" id="mark" style="display: none;">
+           <div class="nmark" id="mark" style="display: none;" onclick="off()">
           <div class="circle"></div>
           <div class="line_1 left"></div>
           <div class="line_2 right"></div>
@@ -109,7 +111,7 @@
                Dimensions：8 7/8 in. x 11 1/4 in. (22.54 cm x 28.58 cm)<br>
                Date acquired：2008<br>
            </div>
-           <div class="nmark" id="mark" style="display: none;">
+           <div class="nmark" id="mark" style="display: none;" onclick="off()">
           <div class="circle"></div>
           <div class="line_1 left"></div>
           <div class="line_2 right"></div>
@@ -129,7 +131,7 @@
                Dimensions: 11 5/8 x 16 in. (29.53 x 40.64 cm)<br>
                Date acquired: 2009<br>
            </div>
-           <div class="nmark" id="mark" style="display: none;">
+           <div class="nmark" id="mark" style="display: none;" onclick="off()">
           <div class="circle"></div>
           <div class="line_1 left"></div>
           <div class="line_2 right"></div>
@@ -149,7 +151,7 @@
                Dimensions: 17 x 14 in. (43.18 x 35.56 cm)<br>
                Date acquired: 2007<br>
            </div>
-           <div class="nmark" id="mark" style="display: none;">
+           <div class="nmark" id="mark" style="display: none;" onclick="off()">
           <div class="circle"></div>
           <div class="line_1 left"></div>
           <div class="line_2 right"></div>
@@ -169,7 +171,7 @@
                Dimensions: 11 5/8 x 16 in. (29.53 x 40.64 cm)<br>
                Date acquired: 2007<br>
            </div>
-           <div class="nmark" id="mark" style="display: none;">
+           <div class="nmark" id="mark" style="display: none;" onclick="off()">
           <div class="circle"></div>
           <div class="line_1 left"></div>
           <div class="line_2 right"></div>
@@ -190,10 +192,11 @@
                Dimensions: 11 11/16 x 16 in. (29.69 x 40.64 cm)<br>
                Date acquired: 2007<br>
            </div>
-           <div class="nmark" id="mark" style="display: none;">
+           <div class="nmark" id="mark" style="display: none;" onclick="off()">
           <div class="circle"></div>
           <div class="line_1 left"></div>
           <div class="line_2 right"></div>
+      </div>
       </div>
       </div>
   </body>
